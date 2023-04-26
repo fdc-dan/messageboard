@@ -373,3 +373,183 @@ Stack Trace:
 #9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
 #11 {main}
+2023-04-26 02:47:46 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}
+2023-04-26 02:48:41 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}
+2023-04-26 02:48:47 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}
+2023-04-26 02:48:53 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}
+2023-04-26 02:49:16 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}
+2023-04-26 02:49:36 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}
+2023-04-26 03:02:29 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}
+2023-04-26 03:03:06 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}
+2023-04-26 03:03:14 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}
+2023-04-26 03:03:34 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}
+2023-04-26 03:03:49 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}
+2023-04-26 03:03:53 Error: [NotFoundException] Not Found
+Request URL: /messageboard/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(971): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(933): View->_evaluate('/Applications/X...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/index.php(41): require('/Applications/X...')
+#11 {main}

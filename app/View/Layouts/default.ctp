@@ -28,7 +28,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('bootstrap.min');
+		echo $this->Html->css('cake.generic');
 		echo $this->Html->script('jquery-3.2.1.min');
 		echo $this->Html->script('popper.min');
 		echo $this->Html->script('bootstrap.min');
@@ -37,6 +37,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
+
+	<!-- <link rel="stylesheet" type="text/css" href="<?php echo $this->Html->webroot; ?>cake.generic.css" />
+	<script type="text/javascript" src="<?php echo $this->Html->webroot; ?>js/jquery.min.js"></script> -->
 </head>
 <body>
 	<div id="container">
