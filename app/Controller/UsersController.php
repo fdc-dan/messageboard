@@ -10,6 +10,9 @@ class UsersController extends AppController {
     
 	public function login() {
 
+		if($this->Auth->user('id')) {
+			return $this->redirect($this->Auth->redirectUrl());
+		}
 
 		if($this->request->is('post')) {
 
@@ -35,7 +38,7 @@ class UsersController extends AppController {
 			// if($this->Auth->user('id')){ 
 			// redirect to index
 			// }
-		}
+	}
 
 		// if($this->request->is('post')) {
 
