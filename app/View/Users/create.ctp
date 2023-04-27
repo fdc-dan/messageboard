@@ -7,13 +7,16 @@
 
             <?php echo $this->Form->create('User', array('controller'=>'users', 'action'=>'create')); ?>
                 <div class="form-group">
-                    <?php echo $this->Form->input('name', array('class' => 'form-control', 'placeholder' => 'Name', 'required' => true)); ?>
+                    <?php echo $this->Form->input('name', array('class' => 'form-control', 'placeholder' => 'Name')); ?>
                 </div>
                 <div class="form-group">
-                    <?php echo $this->Form->input('email', array('class' => 'form-control', 'placeholder' => 'Email Address', 'required' => true)); ?>
+                    <?php echo $this->Form->input('email', array('class' => 'form-control', 'placeholder' => 'Email Address')); ?>
                 </div>
 				<div class="form-group">
-                    <?php echo $this->Form->input('password', array('class' => 'form-control', 'placeholder' => 'Password', 'required' => true)); ?>
+                    <?php echo $this->Form->input('password', array('class' => 'form-control', 'placeholder' => 'Password')); ?>
+                </div>
+                <div class="form-group">
+                    <?php echo $this->Form->input('confirm_password', array('class' => 'form-control', 'placeholder' => 'Confirm Password', 'type' => 'password')); ?>
                 </div>
                 <div class="form-group">
                     <?php echo $this->Form->button('Register', array('class' => 'btn btn-primary')); ?>
