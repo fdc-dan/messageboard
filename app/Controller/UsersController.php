@@ -10,46 +10,16 @@ class UsersController extends AppController {
     
 	public function login() {
 
-		if($this->Auth->user('id')) {
-			return $this->redirect($this->Auth->redirectUrl());
-		}
+		if($this->Auth->user('id')) return $this->redirect($this->Auth->redirectUrl());
+    
+        if($this->request->is('post')) {
+                
+            if($this->Auth->login()) {
+				
+                return $this->redirect($this->Auth->redirectUrl());
 
-		if($this->request->is('post')) {
-
-			$email = $this->request->data['User']['email'];
-			$password = $this->request->data['User']['password'];
-
-			$conditions = array(
-				'email' => $email,
-				'password' => AuthComponent::password($password),
-			);
-
-			$data = $this->User->find('first',array('conditions' => $conditions));
-
-			//var_dump($data['User']['email']);
-
-			if($data) {
-
-				$this->Auth->login($data);
-				return $this->redirect($this->Auth->redirectUrl());
-
-			} else $this->Session->setFlash('Invalid Username or Password', 'default', array('class' => 'alert alert-danger'));
-
-			// if($this->Auth->user('id')){ 
-			// redirect to index
-			// }
-	}
-
-		// if($this->request->is('post')) {
-
-		// 	$this->request->data['User']['password'] = AuthComponent::password($this->request->data['User']['password']);
-
-		// 	if($this->Auth->login($this->request->data)) {
-		// 		return $this->redirect($this->Auth->redirectUrl());
-		// 	} else {
-		// 		$this->Session->setFlash('Invalid Username or Password', 'default', array('class' => 'alert alert-danger'));
-		// 	}
-		// }
+            } else $this->Session->setFlash('Invalid Username or Password', 'default', array('class' => 'alert alert-danger'));
+        }
 
 	}
 
