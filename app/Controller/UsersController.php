@@ -87,9 +87,62 @@ class UsersController extends AppController {
 		
 		$this->autoRender = false;
 
+		// if($this->request->is(array('post', 'put'))) {
+
+		// 	$input_img = $this->request->data['User']['image'];
+		// 	$file_type = $input_img['type'];
+
+		// 	if(in_array($file_type, ['image/jpeg','image/jpg','image/png'])) {
+
+		// 		$file = basename($input_img['name']);
+		// 		$filename = time().'_'.$file;
+		// 		$folder_path = WWW_ROOT. 'img/users';
+		// 		$upload_path = $folder_path . DS . $filename;
+
+		// 	}
+
+		// }
+
 		if($this->request->is(array('post', 'put'))) {
+			
+			$name = $this->request->data['User']['name'];
+			$birthdate = $this->request->data['User']['birthdate'];
+			$hubby = $this->request->data['User']['hubby'];
+
+			$input_img = $this->request->data['User']['image'];
+			$file_type = $input_img['type'];
+
+
+
+			if(in_array($file_type, ['image/jpeg','image/jpg','image/png'])) {
+
+			
+				$file = basename($input_img['name']);
+				$filename = time().'_'.$file;
+				$upload_path = WWW_ROOT. 'img/users' . DS . $filename;
+
+
+				if(move_uploaded_file($input_img['tmp_name'], $upload_path)) {
+
+					$data = array(
+						'photo' => $filename,
+						'name' => $name,
+						'birthday' => $birthdate,
+						'hubby' => $hubby,
+						'modified_ip' => $this->request->clientIp()
+					);
+
+					if($this->User->save($data)) {
+						$response = array('alert' => 'error', 'message' => 'User successfully updated');
+					}
+				}
+
+			} else $response = array('alert' => 'error', 'message' => 'Invalid photo extension');
+
+			return json_encode($response);
 
 		} 
+		
 
 	}
 
@@ -124,9 +177,9 @@ class UsersController extends AppController {
 
 					if($this->User->save($data)) {
 						$response = array('alert' => 'success', 'message' => 'Update email successfully');
-					} 
+					}
 
-				} else $response = array('alert' => 'exist', 'message' => 'Email is already exist'); 
+				} else $response = array('alert' => 'error', 'message' => 'Email is already exist'); 
 
 			} else $response = array('alert' => 'error', 'message' => 'Unable to update. You enter old email');
 
@@ -165,7 +218,6 @@ class UsersController extends AppController {
 			} else $response = array('alert' => 'error', 'message' => 'Incorrect old password');
 
 			return json_encode($response);
-
 		} 
 		
 	}	

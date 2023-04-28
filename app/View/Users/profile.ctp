@@ -138,11 +138,7 @@
                         case 'error':
                             alert(response.message);
                             break;
-
-                        case 'exist':
-                            alert(response.message);
-                            break;
-
+                            
                         default:
                             console.log(response);
 
