@@ -87,22 +87,6 @@ class UsersController extends AppController {
 		
 		$this->autoRender = false;
 
-		// if($this->request->is(array('post', 'put'))) {
-
-		// 	$input_img = $this->request->data['User']['image'];
-		// 	$file_type = $input_img['type'];
-
-		// 	if(in_array($file_type, ['image/jpeg','image/jpg','image/png'])) {
-
-		// 		$file = basename($input_img['name']);
-		// 		$filename = time().'_'.$file;
-		// 		$folder_path = WWW_ROOT. 'img/users';
-		// 		$upload_path = $folder_path . DS . $filename;
-
-		// 	}
-
-		// }
-
 		if($this->request->is(array('post', 'put'))) {
 			
 			$name = $this->request->data['User']['name'];
