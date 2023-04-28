@@ -100,12 +100,23 @@
             fileReadURL(this);
         });
 
-
-
         $('#profileUpdateForm').on('submit', function(e) {
             e.preventDefault(0);
 
-
+            $.ajax({
+                url:'<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'editProfile')); ?>',
+                type:'POST',
+                data: new FormData(this),
+                contentType:false,
+                cache:false,
+                processData:false,
+                success:function(response) {
+                    console.log(response);
+                },
+                error:function(error) {
+                    console.log(error);
+                }
+            });
         });
     });
 

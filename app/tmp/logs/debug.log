@@ -10246,3 +10246,457 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
 [main] - APP/webroot/index.php, line 117
 
+2023-04-28 09:25:09 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Network/CakeResponse.php, line 551]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CakeResponse::_sendContent() - CORE/Cake/Network/CakeResponse.php, line 551
+CakeResponse::send() - CORE/Cake/Network/CakeResponse.php, line 443
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 174
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:20:01 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:20:11 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:20:50 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:21:02 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:21:02 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:21:13 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:21:13 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:21:14 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:21:32 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:21:57 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:21:58 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:22:00 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:22:01 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:22:13 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 129]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 129
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:23:27 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 131]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 131
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:23:28 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 131]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 131
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:23:29 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 131]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 131
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:23:29 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 131]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 131
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:24:02 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 131]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 131
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:25:31 Notice: Notice (8): Undefined index: image in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 96]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:25:31 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 97]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:25:33 Notice: Notice (8): Undefined index: image in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 96]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:25:33 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 97]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:25:33 Notice: Notice (8): Undefined index: image in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 96]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 96
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:25:33 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 97]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 97
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:25:50 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Network/CakeResponse.php, line 551]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+CakeResponse::_sendContent() - CORE/Cake/Network/CakeResponse.php, line 551
+CakeResponse::send() - CORE/Cake/Network/CakeResponse.php, line 443
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 174
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:26:27 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 132]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 132
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:26:44 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 132]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 132
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:27:16 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 132]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 132
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:30:32 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 132]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 132
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:31:55 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 133]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 133
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:33:20 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 132]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 132
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:33:48 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 132]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 132
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:34:03 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 132]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 132
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:38:23 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 131]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 131
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:39:11 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 131]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 131
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:39:12 Notice: Notice (8): Undefined variable: data in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php, line 131]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+UsersController::editProfile() - APP/Controller/UsersController.php, line 131
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 10:59:03 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 11:02:24 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 11:02:26 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 11:03:50 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 11:05:38 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 11:09:32 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 10
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
