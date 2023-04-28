@@ -118,7 +118,7 @@ class UsersController extends AppController {
 						'name' => $name,
 						'birthday' => $birthdate,
 						'hubby' => $hubby
-						//'modified_ip' => $this->request->clientIp()
+						'modified_ip' => $this->request->clientIp()
 					);
 
 					if($this->User->save($data)) {
