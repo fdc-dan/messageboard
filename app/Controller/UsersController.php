@@ -16,6 +16,7 @@ class UsersController extends AppController {
 
             if($this->Auth->login()) {
 
+	
 				$userid = $this->Auth->user('id');
 				$datenow = date("Y-m-d H:i:s");
 				$data = array('last_login_time' => $datenow);
@@ -36,6 +37,7 @@ class UsersController extends AppController {
 
 		if($this->request->is('post')) {
 
+		
 			$name = $this->request->data['User']['name'];
 			$email = $this->request->data['User']['email'];
 			$password = $this->request->data['User']['password'];
@@ -47,6 +49,7 @@ class UsersController extends AppController {
 				'email' => $email, 
 				'password' => AuthComponent::password($password)
 			);
+
 
 			$userData['User'] = $data;
 			$this->User->clear();
