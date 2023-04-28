@@ -118,12 +118,12 @@ class UsersController extends AppController {
 						'name' => $name,
 						'birthday' => $birthdate,
 						'hubby' => $hubby
-						'modified_ip' => $this->request->clientIp()
 					);
 
-					if($this->User->save($data)) {
-						$response = array('alert' => 'error', 'message' => 'User successfully updated');
-					} 
+					var_dump($data);
+					exit();
+
+
 				} else return 0;
 
 			} else $response = array('alert' => 'error', 'message' => 'Invalid photo extension');
