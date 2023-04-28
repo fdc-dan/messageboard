@@ -91,7 +91,8 @@ class UsersController extends AppController {
 		$this->autoRender = false;
 
 		if($this->request->is(array('post', 'put'))) {
-			
+
+			$userid = $this->Auth->user('id');
 			$name = $this->request->data['User']['name'];
 			$birthdate = $this->request->data['User']['birthdate'];
 			$hubby = $this->request->data['User']['hubby'];
@@ -112,17 +113,18 @@ class UsersController extends AppController {
 				if(move_uploaded_file($input_img['tmp_name'], $upload_path)) {
 
 					$data = array(
+						'id' => $userid,
 						'photo' => $filename,
 						'name' => $name,
 						'birthday' => $birthdate,
-						'hubby' => $hubby,
-						'modified_ip' => $this->request->clientIp()
+						'hubby' => $hubby
+						//'modified_ip' => $this->request->clientIp()
 					);
 
 					if($this->User->save($data)) {
 						$response = array('alert' => 'error', 'message' => 'User successfully updated');
-					}
-				}
+					} 
+				} else return 0;
 
 			} else $response = array('alert' => 'error', 'message' => 'Invalid photo extension');
 

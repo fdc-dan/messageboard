@@ -31,3 +31,495 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
 [main] - APP/webroot/index.php, line 117
 
+2023-04-28 13:03:46 Warning: Warning (2): date_format() expects parameter 1 to be DateTimeInterface, null given in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/edit.ctp, line 51]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+date_format - [internal], line ??
+include - APP/View/Users/edit.ctp, line 51
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 13:04:33 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'email' doesn't have a default value
+Request URL: /messageboard/users/editProfile
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `db...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `db...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php(122): Model->save(Array)
+#6 [internal function]: UsersController->editProfile()
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2023-04-28 13:04:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:04:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:04:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:04:44 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'email' doesn't have a default value
+Request URL: /messageboard/users/editProfile
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `db...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `db...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php(122): Model->save(Array)
+#6 [internal function]: UsersController->editProfile()
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2023-04-28 13:05:30 Warning: Warning (2): date_format() expects parameter 1 to be DateTimeInterface, null given in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/edit.ctp, line 51]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+date_format - [internal], line ??
+include - APP/View/Users/edit.ctp, line 51
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 13:05:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:05:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:05:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:05:38 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'email' doesn't have a default value
+Request URL: /messageboard/users/editProfile
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `db...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `db...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php(122): Model->save(Array)
+#6 [internal function]: UsersController->editProfile()
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2023-04-28 13:06:08 Warning: Warning (2): date_format() expects parameter 1 to be DateTimeInterface, null given in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/edit.ctp, line 51]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+date_format - [internal], line ??
+include - APP/View/Users/edit.ctp, line 51
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 13:06:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:06:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:06:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:07:31 Warning: Warning (2): date_format() expects parameter 1 to be DateTimeInterface, null given in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/edit.ctp, line 51]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+date_format - [internal], line ??
+include - APP/View/Users/edit.ctp, line 51
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 13:07:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:07:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:07:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:07:44 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'email' doesn't have a default value
+Request URL: /messageboard/users/editProfile
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `db...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `db...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1942): DboSource->create(Object(User), Array, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php(123): Model->save(Array)
+#6 [internal function]: UsersController->editProfile()
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2023-04-28 13:09:00 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /messageboard/edit-profile
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2023-04-28 13:09:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:09:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:09:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:09:10 Warning: Warning (2): date_format() expects parameter 1 to be DateTimeInterface, null given in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/edit.ctp, line 51]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+date_format - [internal], line ??
+include - APP/View/Users/edit.ctp, line 51
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 13:09:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:09:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:09:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:09:18 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '04/28/2023' for column `db_messageboard`.`users`.`birthday` at row 1
+Request URL: /messageboard/users/editProfile
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `db_mess...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `db_mess...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1926): Mysql->update(Object(User), '`id` = 3, `phot...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php(124): Model->save(Array)
+#6 [internal function]: UsersController->editProfile()
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2023-04-28 13:09:19 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '04/28/2023' for column `db_messageboard`.`users`.`birthday` at row 1
+Request URL: /messageboard/users/editProfile
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `db_mess...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `db_mess...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1926): Mysql->update(Object(User), '`id` = 3, `phot...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php(124): Model->save(Array)
+#6 [internal function]: UsersController->editProfile()
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2023-04-28 13:09:20 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '04/28/2023' for column `db_messageboard`.`users`.`birthday` at row 1
+Request URL: /messageboard/users/editProfile
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `db_mess...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `db_mess...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1926): Mysql->update(Object(User), '`id` = 3, `phot...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php(124): Model->save(Array)
+#6 [internal function]: UsersController->editProfile()
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2023-04-28 13:09:41 Warning: Warning (2): date_format() expects parameter 1 to be DateTimeInterface, null given in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/edit.ctp, line 51]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+date_format - [internal], line ??
+include - APP/View/Users/edit.ctp, line 51
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 13:09:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:09:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:09:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:10:01 Warning: Warning (2): date_format() expects parameter 1 to be DateTimeInterface, null given in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/edit.ctp, line 51]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+date_format - [internal], line ??
+include - APP/View/Users/edit.ctp, line 51
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 13:10:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:10:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:10:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:10:07 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '04/14/2023' for column `db_messageboard`.`users`.`birthday` at row 1
+Request URL: /messageboard/users/editProfile
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `db_mess...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `db_mess...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1926): Mysql->update(Object(User), '`id` = 3, `phot...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php(124): Model->save(Array)
+#6 [internal function]: UsersController->editProfile()
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2023-04-28 13:10:29 Warning: Warning (2): date_format() expects parameter 1 to be DateTimeInterface, null given in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/edit.ctp, line 51]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+date_format - [internal], line ??
+include - APP/View/Users/edit.ctp, line 51
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-04-28 13:10:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:10:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:10:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /messageboard/js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-04-28 13:10:36 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '04/13/2023' for column `db_messageboard`.`users`.`birthday` at row 1
+Request URL: /messageboard/users/editProfile
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('UPDATE `db_mess...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/Database/Mysql.php(425): DboSource->execute('UPDATE `db_mess...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1926): Mysql->update(Object(User), '`id` = 3, `phot...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/UsersController.php(124): Model->save(Array)
+#6 [internal function]: UsersController->editProfile()
+#7 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
