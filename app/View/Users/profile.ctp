@@ -1,60 +1,55 @@
 <div class="row">
-    <h3>User Details</h3>
+    <h3>User Profile</h3>
     <div class="col-12  p-3">
         <div class="card">
             <div class="card-body">
                 <div class="row">
                     <div class="col-12">
                         <div class="dropdown float-right">
-                            <a class="nav-link dropdown-toggle btn btn-secondary btn-sm" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Actions
+                            <a class="nav-link dropdown-toggle btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-pencil-square-o"></i>
                             </a>
                             <div class="dropdown-menu p-2" aria-labelledby="dropdownMenuLink">
-                                <?php echo $this->Html->link('Edit profile', '', array('class' => 'dropdown-item')); ?>
+                                <?php echo $this->Html->link('Edit profile', array('controller' => 'users', 'action' => 'edit'), array('class' => 'dropdown-item')); ?>
                                 <?php echo $this->Html->link('Change Email', '', array('class' => 'dropdown-item', 'id' => 'changeEmailBtn')); ?>
                                 <?php echo $this->Html->link('Change Password', '', array('class' => 'dropdown-item', 'id' => 'changePassBtn')); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <?php echo $this->Html->image('placeholder-user.jpeg', array('alt' => AuthComponent::user('name'), 'class' => "img-fluid")); ?>
+                    <div class="col-lg-3">
+                        <?php echo $this->Html->image('placeholder-user.jpeg', array('alt' => AuthComponent::user('name'), 'class' => "img-fluid user-profile")); ?>
                     </div>
-                    <div class="col-lg-8">
-                        <div class="row">
-                            <div class="col-lg-6">
+                    <div class="col-lg-9">
                                 <h4><?php echo ucwords($user['User']['name']); ?></h4>
                                 <p class="m-0">
-                                    Gender: 
+                                    <strong>Gender:</strong>
                                     <?php echo ucfirst($user['User']['gender']); ?>
                                 </p>
                                 <p class="m-0">
-                                    Birthdate: 
+                                    <strong>Birthdate:</strong>
                                     <?php 
                                         $birthdate = $user['User']['birthday'];
                                         echo $this->Time->format($birthdate, '%B %d, %Y');
                                     ?>
                                 </p>
                                 <p class="m-0">
-                                    Joined: 
+                                    <strong>Joined:</strong>
                                     <?php 
                                         $joined = $user['User']['created'];
                                         echo $this->Time->format($joined, '%B %d, %Y');
                                     ?>
                                 </p>
-                                <p class="m-0">
-                                    Last Login: 
+                                <p>
+                                    <strong>Last Login:</strong>
                                     <?php 
                                         $last_login_time = $user['User']['last_login_time'];
                                         echo $this->Time->format($last_login_time, '%B %d, %Y');
                                     ?>
                                 </p>
-                            </div>
-                            <div class="col-lg-6">
                                 <p>
-                                    Hubby:<br/>
+                                    <strong>Hubby:</strong><br/>
                                     <?php echo $user['User']['hubby']; ?>
                                 </p>
-                            </div>
                         </div>
                     </div>  
                 </div>
@@ -125,7 +120,7 @@
         $('#changeEmailForm').on('submit', function(e) {
             e.preventDefault(0);
 
-            var email = $('#email').val();
+            let email = $('#email').val();
 
             $.ajax({
                 url: '<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'changeEmail')); ?>',
@@ -167,12 +162,11 @@
             $('#changePassModal').modal('show');
         });
 
-
         $('#changePassForm').on('submit', function(e) {
             e.preventDefault(0);
 
-            var oldPass = $('#old_pass').val();
-            var newPass = $('#new_pass').val();
+            let oldPass = $('#old_pass').val();
+            let newPass = $('#new_pass').val();
             
             $.ajax({
                 url: '<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'changePassword')); ?>',

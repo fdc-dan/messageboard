@@ -15,7 +15,10 @@
 		echo $this->Html->css('custom');
 		echo $this->Html->css('font-awesome');
 		echo $this->Html->css('bootstrap.min');
+		echo $this->Html->css('jquery-ui');
+
 		echo $this->Html->script('jquery3.3.1.min');
+		echo $this->Html->script('jquery-ui');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');

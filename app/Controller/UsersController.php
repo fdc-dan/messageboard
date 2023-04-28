@@ -63,6 +63,7 @@ class UsersController extends AppController {
 
 	}
 
+	// Profile details page
 	public function profile() {
 		
 		$userid = $this->Auth->user('id');
@@ -72,7 +73,23 @@ class UsersController extends AppController {
 		
 	}
 
-	public function update() {
+	// Profile form
+	public function edit() {
+
+		$userid = $this->Auth->user('id');
+		$user = $this->User->findById($userid);
+
+		$this->set('user', $user);
+
+	}
+
+	public function editProfile() {
+		
+		$this->autoRender = false;
+
+		if($this->request->is(array('post', 'put'))) {
+
+		} 
 
 	}
 
@@ -152,41 +169,5 @@ class UsersController extends AppController {
 		} 
 		
 	}	
-
-	// public function password() {
-
-	// 	if($this->request->is(array('post', 'put'))) {
-
-	// 		$userid = $this->Auth->user('id');
-	// 		$old_password = $this->request->data['User']['old_password'];
-			
-	// 		$conditions = array(
-	// 			"User.id" => $userid,
-	// 			"User.password" => AuthComponent::password($old_password)
-	// 		);
-
-	// 		$track_old_password = $this->User->find('count', array('conditions' => $conditions));
-
-	// 		if($track_old_password > 0) {
-
-	// 			$new_password = $this->request->data['User']['new_password'];
-	// 			$data = array(
-	// 				'id' => $userid, 
-	// 				'password' => AuthComponent::password($new_password)
-	// 			);
-
-	// 			if($this->User->save($data)) {
-
-	// 				$this->Session->setFlash('Password was successfully changed', 'default', array('class' => 'alert alert-success text-center'));
-	// 				return $this->redirect(array('action' => 'password'));
-
-	// 			} else $this->set('errors', $this->User->validationErrors);
-
-
-	// 		} else $this->Session->setFlash('Incorrect old password', 'default', array('class' => 'alert alert-danger text-center'));
-
-			
-	// 	}
-	// }
 
 }

@@ -1,24 +1,112 @@
-<div class="users form">
-<?php echo $this->Form->create('User'); ?>
-	<fieldset>
-		<legend><?php echo __('Edit User'); ?></legend>
-	<?php
-		echo $this->Form->input('id');
-		echo $this->Form->input('username');
-		echo $this->Form->input('password');
-		echo $this->Form->input('name');
-		echo $this->Form->input('role');
-		echo $this->Form->input('created_at');
-		echo $this->Form->input('updated_at');
-	?>
-	</fieldset>
-<?php echo $this->Form->end(__('Submit')); ?>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
+<div class="row">
+    <h3>Edit Profile</h3>
+    <div class="col-12  p-3">
+        <div class="card">
+            <div class="card-body">
+                <?php echo $this->Form->create(array('type' => 'file', 'id' => 'profileUpdateForm')); ?>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <?php 
 
-		<li><?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $this->Form->value('User.id')), array('confirm' => __('Are you sure you want to delete # %s?', $this->Form->value('User.id')))); ?></li>
-		<li><?php echo $this->Html->link(__('List Users'), array('action' => 'index')); ?></li>
-	</ul>
+                                echo $this->Html->image('placeholder-user.jpeg', array(
+                                    'class' => "img-fluid mb-2",
+                                    'id' => 'fileUploadImage',
+                                    'alt' => AuthComponent::user('name')
+                                ));
+
+                                echo $this->Form->input('image', array(
+                                    'class' => 'form-control file-upload', 
+                                    'id' => 'fileUpload',
+                                    'type' => 'file', 
+                                    'accept' => 'image/*',
+                                    'value' => $user['User']['photo'],
+                                    'label' => false,
+                                    'required' => true
+                                ));
+                             ?>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="form-group">
+                                <?php 
+                                    echo $this->Form->input('name', array(
+                                            'class' => 'form-control',
+                                            'id' => 'name', 
+                                            'value' => $user['User']['name'],
+                                            'required' => true
+                                        )); 
+                                ?>
+                            </div>
+                            <div class="form-group">
+                                <?php 
+
+                                    $birthdate = $user['User']['birthday'];
+                                    $formatBirthDate = $this->Time->format($birthdate, '%m/%d/%Y');
+
+                                    echo $this->Form->input('birthdate', array(
+                                        'class' => 'form-control',
+                                        'id' => 'birthdate',
+                                        'value' => $formatBirthDate
+                                    )); 
+
+                                    echo date_format($user['User']['birthday'], 'Y');
+                                ?>
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Gender</label>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Hubby</label>
+                                <?php 
+                                    echo $this->Form->textarea('hubby', array(
+                                        'class' => 'form-control',
+                                        'id' => 'hubby',
+                                        'rows' => 7,
+                                        'value' => $user['User']['hubby'],
+                                        'required' => true
+                                    )); 
+                                ?>
+                            </div>
+                            <div class="form-group">
+                                <?php echo $this->Form->button('Save', array('class' => 'btn btn-primary')); ?>
+                            </div>
+                        </div>  
+                    </div>
+                <?php echo $this->Form->end(); ?>
+            </div>
+        </div>
+    </div>
 </div>
+
+<script>
+
+    $(document).ready(function() {
+
+        // jQUery Datepicker
+        $('#birthdate').datepicker();
+
+        // Profile preview
+        var fileReadURL = function(input) {
+            if(input.files && input.files[0]) {
+                var reader = new FileReader();
+                    reader.onload = function (e) {
+                        $('#fileUploadImage').attr('src', e.target.result);
+                    }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#fileUpload").on('change', function(){
+            fileReadURL(this);
+        });
+
+
+
+        $('#profileUpdateForm').on('submit', function(e) {
+            e.preventDefault(0);
+
+
+        });
+    });
+
+</script>
