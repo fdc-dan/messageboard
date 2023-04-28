@@ -76,72 +76,117 @@ class UsersController extends AppController {
 
 	}
 
-	public function email() {
-
-		if($this->request->is(array('post', 'put'))) {
-			
-			$userid = $this->Auth->user('id');
-			$new_email = $this->request->data['User']['email'];
-
-			$conditions = array(
-				"User.id" => $userid,
-				"User.email" => $new_email
-			);
-
-			$track_current_email = $this->User->find('count', array('conditions' => $conditions));
-
-			if($track_current_email == 0) {
-
-				$data = array(
-					'id' => $userid, 
-					'email' => $new_email
-				);
-
-				if($this->User->save($data)) {
-
-					$this->Session->setFlash('Email address was successfully changed', 'default', array('class' => 'alert alert-success text-center'));
-					return $this->redirect(array('action' => 'email'));
-
-				} else $this->set('errors', $this->User->validationErrors);
-
-			} else $this->set('errors', $this->User->validationErrors['email'] = 'You enter your current email address');
-			
-		}
+	// Track old email
+	public function trackCurrentEmail($id, $email) {
+		$conditions = array("User.id" => $id, "User.email" => $email);
+		return  $this->User->find('count', array('conditions' => $conditions));
+	}
+	
+	// Track existing email
+	public function trackExistingEmail($email) {
+		$conditions = array("User.email" => $email);
+		return  $this->User->find('count', array('conditions' => $conditions));
 	}
 
-	public function password() {
+	public function changeEmail() {
+		
+		$this->autoRender = false;
 
 		if($this->request->is(array('post', 'put'))) {
 
 			$userid = $this->Auth->user('id');
-			$old_password = $this->request->data['User']['old_password'];
+			$new_email = $this->request->data['email'];	
+
+			if($this->trackCurrentEmail($userid, $new_email) == 0 ) {
+
+				if($this->trackExistingEmail($new_email) == 0) {
+					$data = array(
+						'id' => $userid, 
+						'email' => $new_email
+					);
+
+					if($this->User->save($data)) {
+						$response = array('alert' => 'success', 'message' => 'Update email successfully');
+					} 
+
+				} else $response = array('alert' => 'exist', 'message' => 'Email is already exist'); 
+
+			} else $response = array('alert' => 'error', 'message' => 'Unable to update. You enter old email');
+
+			return json_encode($response);
+		}
+	}
+
+	// Track old password
+	public function trackOldPassword($id, $old_password) {
+
+		$conditions = array("User.id" => $id, "User.password" => AuthComponent::password($old_password));
+		return $this->User->find('count', array('conditions' => $conditions));
+	}
+
+	public function changePassword() {
+
+		$this->autoRender = false;
+
+		if($this->request->is(array('post', 'put'))) {
 			
-			$conditions = array(
-				"User.id" => $userid,
-				"User.password" => AuthComponent::password($old_password)
-			);
+			$userid = $this->Auth->user('id');
+			$old_pass = $this->request->data['oldPass'];
 
-			$track_old_password = $this->User->find('count', array('conditions' => $conditions));
+			if($this->trackOldPassword($userid, $old_pass) > 0) {
 
-			if($track_old_password > 0) {
-
-				$new_password = $this->request->data['User']['new_password'];
+				$new_pass = $this->request->data['newPass'];
 				$data = array(
 					'id' => $userid, 
-					'password' => AuthComponent::password($new_password)
+					'password' => AuthComponent::password($new_pass)
 				);
 
 				if($this->User->save($data)) {
+					$response = array('alert' => 'success', 'message' => 'Password was successfully changed');
+				} 
 
-					$this->Session->setFlash('Password was successfully changed', 'default', array('class' => 'alert alert-success text-center'));
-					return $this->redirect(array('action' => 'password'));
+			} else $response = array('alert' => 'error', 'message' => 'Incorrect old password');
 
-				} else $this->set('errors', $this->User->validationErrors);
+			return json_encode($response);
+
+		} 
+		
+	}	
+
+	// public function password() {
+
+	// 	if($this->request->is(array('post', 'put'))) {
+
+	// 		$userid = $this->Auth->user('id');
+	// 		$old_password = $this->request->data['User']['old_password'];
+			
+	// 		$conditions = array(
+	// 			"User.id" => $userid,
+	// 			"User.password" => AuthComponent::password($old_password)
+	// 		);
+
+	// 		$track_old_password = $this->User->find('count', array('conditions' => $conditions));
+
+	// 		if($track_old_password > 0) {
+
+	// 			$new_password = $this->request->data['User']['new_password'];
+	// 			$data = array(
+	// 				'id' => $userid, 
+	// 				'password' => AuthComponent::password($new_password)
+	// 			);
+
+	// 			if($this->User->save($data)) {
+
+	// 				$this->Session->setFlash('Password was successfully changed', 'default', array('class' => 'alert alert-success text-center'));
+	// 				return $this->redirect(array('action' => 'password'));
+
+	// 			} else $this->set('errors', $this->User->validationErrors);
 
 
-			} else $this->Session->setFlash('Incorrect old password', 'default', array('class' => 'alert alert-danger text-center'));
+	// 		} else $this->Session->setFlash('Incorrect old password', 'default', array('class' => 'alert alert-danger text-center'));
 
-		}
-	}
+			
+	// 	}
+	// }
 
 }

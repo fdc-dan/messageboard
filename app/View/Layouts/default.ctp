@@ -13,10 +13,9 @@
 	<?php
 		echo $this->Html->meta('icon');
 		echo $this->Html->css('custom');
+		echo $this->Html->css('font-awesome');
 		echo $this->Html->css('bootstrap.min');
 		echo $this->Html->script('jquery3.3.1.min');
-		echo $this->Html->script('popper.min');
-		echo $this->Html->script('bootstrap.min');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -45,10 +44,7 @@
 								<a class="nav-link dropdown-toggle text-dark" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Hi, <strong><?php echo AuthComponent::user('name'); ?></strong>
 								</a>
-
 								<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-									<?php echo $this->Html->link('Change Email', array('controller' => 'users', 'action' => 'email'), array('class' => 'dropdown-item')); ?>
-									<?php echo $this->Html->link('Change Password', array('controller' => 'users', 'action' => 'password'), array('class' => 'dropdown-item')); ?>
 									<?php echo $this->Html->link('Logout', array('controller' => 'users', 'action' => 'logout'), array('class' => 'dropdown-item')); ?>
 								</div>
 							</div>
@@ -68,7 +64,10 @@
 		</div>
 	</div>
 	
-
+	<?php
+		echo $this->Html->script('popper.min');
+		echo $this->Html->script('bootstrap.min');
+	?>
 
 	<?php echo $this->element('sql_dump'); ?>
 	

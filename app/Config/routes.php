@@ -31,8 +31,7 @@
 
 	Router::connect('/profile', array('controller' => 'users', 'action' => 'profile'));
 	Router::connect('/profile-update', array('controller' => 'users', 'action' => 'update'));
-	Router::connect('/change-email', array('controller' => 'users', 'action' => 'email'));
-	Router::connect('/change-password', array('controller' => 'users', 'action' => 'password'));
+	//Router::connect('/change-password', array('controller' => 'users', 'action' => 'password'));
 
 
 	Router::connect('/message', array('controller' => 'messages', 'action' => 'index'));
