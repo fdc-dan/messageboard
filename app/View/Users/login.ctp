@@ -1,7 +1,7 @@
 
 <div class="d-flex align-items-center justify-content-center vertical">
     <div class="col-5">
-        <div class="error_wrap">
+        <div class="alert_wrap">
             <?php echo $this->Session->flash(); ?>
         </div>
         <div class="card">

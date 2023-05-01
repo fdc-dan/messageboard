@@ -15,14 +15,17 @@ class UsersController extends AppController {
         if($this->request->is('post')) {
 
             if($this->Auth->login()) {
-	
-				$userid = $this->Auth->user('id');
-				$datenow = date("Y-m-d H:i:s");
-				$data = array('last_login_time' => $datenow);
-				
-				$this->User->id = $userid;
 
-				if($this->User->save($data)) return $this->redirect($this->Auth->redirectUrl());
+				// Update last time login
+				$datenow = date("Y-m-d H:i:s");
+				$data = array(
+					'id' => $this->Auth->user('id'),
+					'last_login_time' => $datenow
+				);
+
+				if($this->User->save($data)) {
+					return $this->redirect($this->Auth->redirectUrl());
+				}
 
             } else $this->Session->setFlash('Invalid Username or Password', 'default', array('class' => 'alert alert-danger'));
         }
@@ -41,7 +44,7 @@ class UsersController extends AppController {
 			$email = $this->request->data['User']['email'];
 			$password = $this->request->data['User']['password'];
 			$confirmpass = $this->request->data['User']['confirm_password'];
-			$ip = $this->request->clientIp();
+			$ip = $ip = $this->request->clientIp();
 
 			if($password == $confirmpass) {
 			
@@ -54,8 +57,6 @@ class UsersController extends AppController {
 
 
 				if($this->User->save($data)) {	
-					var_dump();
-					exit();
 
 					$get_data = $this->User->read(null, $this->User->id);
 					$set_data = array(
@@ -63,22 +64,9 @@ class UsersController extends AppController {
 						'email' => $get_data['User']['email'],
 						'name' => $get_data['User']['name']
 					);
-
 					
 					if($this->Auth->login($set_data)) {
-
 						return $this->redirect(array('controller' => 'users', 'action' => 'thankyou'));
-
-						// $datenow = date("Y-m-d H:i:s");
-						// $last_login_time = array(
-						// 	'id' => $get_data['User']['id'],
-						// 	'last_login_time' => $datenow
-						// );
-						
-						// if($this->User->save($last_login_time)) {
-						// 	return $this->redirect(array('controller' => 'users', 'action' => 'thankyou'));
-						// } 
-						
 					}
 
 				} else $this->set('errors', $this->User->validationErrors);
@@ -138,7 +126,7 @@ class UsersController extends AppController {
 			
 			} else {
 
-				if(in_array($file_type, ['image/jpeg','image/jpg','image/png'])) {
+				if(in_array($file_type, ['image/jpeg','image/jpg','image/png','image/gif'])) {
 
 			
 					$file = basename($input_img['name']);
@@ -250,8 +238,19 @@ class UsersController extends AppController {
 	}	
 
 	public function thankyou() {
-		$message = 'Thank you for registering!';
-		$this->set('message', $message);
+		
+		$userid = $this->Auth->user('id');
+		$datenow = date("Y-m-d H:i:s");
+		$last_login_time = array(
+			'id' => $userid,
+			'last_login_time' => $datenow
+		);
+
+		if($this->User->save($last_login_time)) {
+			$message = 'Thank you for registering!';
+			$this->set('message', $message);
+		} 
+
 	}
 
 }

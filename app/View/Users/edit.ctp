@@ -1,7 +1,7 @@
 <div class="row">
     <h3>Edit Profile</h3>
     <div class="col-12  p-3">
-        <div>
+        <div class="alert_wrap">
             <?php echo $this->Session->flash(); ?>
         </div>
         <div class="card">
@@ -17,7 +17,13 @@
                         <div class="col-lg-3">
                             <?php 
 
-                                echo $this->Html->image('users/'.$user['User']['photo'], array(
+                                $profile_url = '';
+                                $profile_data = $user['User']['photo'];
+
+                                if(empty($profile_data )) $profile_url = 'users/placeholder.jpeg';
+                                else $profile_url = 'users/'.$profile_data;
+
+                                echo $this->Html->image($profile_url, array(
                                     'class' => "img-fluid mb-2",
                                     'id' => 'fileUploadImage',
                                     'alt' => AuthComponent::user('name')

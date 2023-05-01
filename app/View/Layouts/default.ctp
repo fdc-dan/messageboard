@@ -27,7 +27,12 @@
 
 </head>
 <body>
-	<?php if(AuthComponent::user()) :?>
+	<?php 
+		$current_url = $this->request->here(); 
+		$restricted_url = '/thankyou';
+	?>
+
+	<?php if(AuthComponent::user() && ($current_url != $restricted_url)) :?>
 		<nav class="navbar navbar-expand-lg navbar-white bg-white">
 			<div class="container">
 				<h3><?php echo $this->Html->link($cakeDescription, array('controller' => 'messages', 'action' => 'index')); ?></h3>
@@ -62,7 +67,6 @@
 
 	<div class="page-wrapper mt-3">
 		<div class="container">
-			<?php echo $this->Flash->render(); ?>
 			<?php echo $this->fetch('content'); ?>
 		</div>
 	</div>
