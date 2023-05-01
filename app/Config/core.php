@@ -175,7 +175,7 @@
  * You can either set it controller-wide by setting public $cacheAction = true,
  * or in each action using $this->cacheAction = true.
  */
-	Configure::write('Cache.check', true);
+	#Configure::write('Cache.check', true);
 
 /**
  * Enable cache view prefixes.
