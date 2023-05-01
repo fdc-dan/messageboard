@@ -7,11 +7,25 @@ body {
 }
 
 .error-message {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #ff0000;
 }
 
-#UserGenderMale, 
-#UserGenderFemale {
-    margin:5px;
+img.user-message-profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.message_profile, .message_lastsent {
+    display: inline-block;
+}
+
+.conversation_box{
+    border-bottom: 1px solid #ddd;
+}
+
+.conversation_box:last-of-type {
+    border-bottom: none;
 }

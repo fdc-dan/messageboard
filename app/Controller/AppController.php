@@ -3,8 +3,8 @@
 App::uses('Controller', 'Controller');
 
 class AppController extends Controller {
+    public $helpers = array('Cache');
     public $components = array(
-        'RequestHandler',
         'Session',
         'Auth' => array(
             'authenticate' => array(
