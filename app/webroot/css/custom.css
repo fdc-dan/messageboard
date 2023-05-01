@@ -18,14 +18,25 @@ img.user-message-profile {
     object-fit: cover;
 }
 
-.message_profile, .message_lastsent {
-    display: inline-block;
+img.message-profile {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
 }
 
-.conversation_box{
+
+.inbox {
     border-bottom: 1px solid #ddd;
+    cursor: pointer;
 }
 
-.conversation_box:last-of-type {
+.inbox:last-of-type {
     border-bottom: none;
+}
+
+.messages {
+    background: #f6f5f5;
+    margin:0.8rem;
+    border-radius: 10px;
 }

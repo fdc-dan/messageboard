@@ -33,7 +33,7 @@
 	Router::connect('/edit-profile', array('controller' => 'users', 'action' => 'edit'));
 
 	Router::connect('/message', array('controller' => 'messages', 'action' => 'index'));
-	Router::connect('/message/detail/*', array('controller' => 'messages', 'action' => 'detail'));
+	Router::connect('/message/*', array('controller' => 'messages', 'action' => 'detail'));
 	Router::connect('/message/create', array('controller' => 'messages', 'action' => 'create'));
 	
 /**

@@ -24,18 +24,42 @@
                                                 WHERE (inbox.sender_id = $userid OR inbox.recipient_id = $userid)
             "); 
 
-            // var_dump($participants);
-            // exit();
-
             $this->set('participants', $query);
         }
 
         public function detail() {
-            
+
+ 
         }
 
-        public function create() {
-            
+        public function getMessages() {
+        
+            $this->autoRender = false;
+
+            if($this->request->is(array('get'))) {
+
+                $inboxHash =  $this->request->query['inboxHash'];
+
+                $messages = $this->Message->query("SELECT message.*, 
+                                                          sender.* 
+                                                   FROM messages message JOIN users sender
+                                                   ON message.sender_id = sender.id  
+                                                   WHERE message.inbox_hash = $inboxHash
+                                                   ORDER BY message.id DESC
+            ");
+
+                return json_encode($messages);
+            }
+         
+        }
+
+        public function replyMessage() {
+
+            $this->autoRender = false;
+
+            if($this->request->is(array('post'))) {
+                return 0;
+            }
         }
     }
 ?>

@@ -1,13 +1,19 @@
 
 <h3>Message List</h3>
+<div class="col-10 mb-5 p-0">
+    <?php 
+        echo $this->Html->link('New Message','',array(
+            'class' => 'btn btn-primary float-right'
+        )); 
+    ?>
+</div>
 
-<div class="col-9 bg-white p-3">
+<div class="col-10 bg-white">
     <?php foreach($participants as $participant) :?>
-        <div class="conversation_box p-3">
+        <div class="inbox p-3 inboxLink" data-id="<?php echo $participant['inbox']['inbox_hash'];?>">
             <div class="row">
-                <div class="col-2 text-center message_profile">
+                <div class="col-md-2 message_profile text-center">
                     <?php
-
                         $session_id = AuthComponent::user('id');
                         $sender_id = $participant['sender']['sender_id'];
 
@@ -23,10 +29,10 @@
                         ));
                     ?>
                 </div>
-                <div class="col-10 message_lastsent">
-                    <div class="float-right">
-                        <a href=""><i class="fa fa-trash text-danger" aria-hidden="true"></i></a>
-                    </div>
+                <div class='col-md-10'>
+                    <?php
+                        echo $participant['inbox']['inbox_hash'];
+                    ?>
                     <h5>
                         <?php 
                             if($session_id == $sender_id) echo $participant['recipient']['recipient_name'];
@@ -45,3 +51,11 @@
     <?php endforeach; ?>
 </div>
 
+<script>
+    $(document).ready(function() {
+        $('.inboxLink').click(function() {
+            var inboxHash = $(this).attr('data-id');
+            window.location.href = 'message/'+inboxHash;
+        });
+    });
+</script>
