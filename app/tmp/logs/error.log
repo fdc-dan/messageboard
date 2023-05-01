@@ -12381,3 +12381,1164 @@ Request URL: /js/bootstrap.min.js.map
 Stack Trace:
 #0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2023-05-01 11:39:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:39:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:39:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:39:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:39:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:39:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:39:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:39:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:39:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:39:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:39:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:39:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:41:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:41:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:41:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:41:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:41:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:41:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:44:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:44:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:44:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:46:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:46:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:46:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:49:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:49:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:49:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:51:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:51:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:51:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:51:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:51:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:51:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:52:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:53:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:54:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:54:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:54:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:54:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:54:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:54:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:54:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:54:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:54:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:55:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:55:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:55:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:55:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:55:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:55:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:55:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/users/null
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:55:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:55:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:55:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:56:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:56:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:56:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:56:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/users/null
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:56:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/users/null
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:58:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:58:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:58:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:58:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:58:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:58:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:59:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:59:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:59:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:59:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/popper.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:59:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2023-05-01 11:59:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js.map
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/messageboard/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -39,12 +39,7 @@
                             else echo $participant['sender']['sender_name'];
                         ?>
                     </h5>
-                    <p>
-                        <?php 
-                            if($session_id == $sender_id)  echo 'You: '.$participant['inbox']['last_message'];
-                            else echo $participant['inbox']['last_message'];
-                        ?>
-                    </p>
+                    <p><?php  echo $participant['inbox']['last_message'];?></p>
                 </div>
             </div>
         </div>

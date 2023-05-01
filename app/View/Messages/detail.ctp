@@ -5,6 +5,8 @@
             <?php 
                 $getInboxHashId = $this->params['pass'][0];
                 echo $this->Form->input('inbox_hash', array(
+                    'id' => 'inboxhash',
+                    'type' => 'hidden',
                     'value' => $getInboxHashId
                 ));
             ?>
@@ -29,7 +31,6 @@
 <!-- Parent div for messages -->
 <div class="col-10 bg-white p-3" id="messagesData"></div>
 
-
 <script>
     $(document).ready(function() {
 
@@ -38,18 +39,21 @@
         
         $.getJSON('<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'getMessages')); ?>', { inboxHash:inboxHash }, function(data) {
             
-            console.log(data.length);
-
             var htmlData  = '';
 
             if(data.length > 0) {
 
                 $.each(data, function(key,value) {
+
+                    var profile_url = '';
+
+                    if(value.sender.photo === null) profile_url = '/img/users/placeholder.jpeg';
+                    else profile_url = '/img/users/'+value.sender.photo;
                     
                     htmlData+="<div class='messages p-2'>";
                             htmlData+="<div class='row'>";
                                 htmlData+="<div class='col-md-2 text-center'>";
-                                    htmlData+="<img src='/img/users/"+value.sender.photo+"' class='message-profile' alt=''>";
+                                    htmlData+="<img src='"+profile_url+"' class='message-profile' alt=''>";
                                 htmlData+="</div>";
                                 htmlData+="<div class='col-md-10'>";
                                     htmlData+="<p>"+value.message.message+"</p>";
@@ -71,10 +75,28 @@
 
 
         // Reply messages
-        $('#newMessageForm').on('submit', function() {
+        $('#newMessageForm').on('submit', function(e) {
+            e.preventDefault();
+
+            let indexHash = $('#inboxhash').val();
             let message = $('#message').val();
 
-            console.log('message');
+            $.ajax({
+                url: '<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'replyMessage')); ?>',
+                type: 'POST',
+                dataType: 'json',
+                data: {
+                    indexHash:indexHash,
+                    message:message
+                }, 
+                success:function(response) {
+                    console.log(response);
+                }, 
+                error:function(error) {
+                    console.log(error);
+                }
+            });
+            
         }); 
     });
 </script>
