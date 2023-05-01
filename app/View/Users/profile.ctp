@@ -17,7 +17,13 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <?php echo $this->Html->image('placeholder-user.jpeg', array('alt' => AuthComponent::user('name'), 'class' => "img-fluid user-profile")); ?>
+                        <?php 
+                            echo $this->Html->image('users/'.$user['User']['photo'], array(
+                                'class' => "img-fluid mb-2",
+                                'id' => 'fileUploadImage',
+                                'alt' => AuthComponent::user('name')
+                            ));
+                        ?>
                     </div>
                     <div class="col-lg-9">
                                 <h4><?php echo ucwords($user['User']['name']); ?></h4>
@@ -74,7 +80,7 @@
                         <?php echo $this->Form->input('email', array('class' => 'form-control', 'id' => 'email', 'placeholder' => 'Enter new email address', 'requried' => true)); ?>
                     </div>
                     <div class="form-group">
-                        <?php echo $this->Form->button('Save Changes', array('class' => 'btn btn-primary')); ?>
+                        <?php echo $this->Form->button('Save', array('class' => 'btn btn-primary')); ?>
                     </div>
                 <?php echo $this->Form->end(); ?>
             </div>
@@ -132,7 +138,7 @@
                     switch(response.alert) {
                         case 'success':
                             alert(response.message);
-                            window.location.href = '/profile';
+                            $('#changeEmailModal').modal('hide');
                             break;
 
                         case 'error':
@@ -177,7 +183,7 @@
                     switch(response.alert) {
                         case 'success':
                             alert(response.message);
-                            window.location.href = '/profile';
+                            $('#changePassModal').modal('hide');
                             break;
 
                         case 'error':

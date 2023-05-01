@@ -4,6 +4,7 @@ App::uses('Controller', 'Controller');
 
 class AppController extends Controller {
     public $components = array(
+        'RequestHandler',
         'Session',
         'Auth' => array(
             'authenticate' => array(

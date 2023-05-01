@@ -1,8 +1,9 @@
 
-
 <div class="d-flex align-items-center justify-content-center vertical">
     <div class="col-5">
-        <?php echo $this->Session->flash(); ?>
+        <div class="error_wrap">
+            <?php echo $this->Session->flash(); ?>
+        </div>
         <div class="card">
             <div class="card-body">
                 <h3 class="card-title mb-3">Login</h3>

@@ -5,7 +5,7 @@ class UsersController extends AppController {
 
     //Allow page to view in sessions
     public function beforeFilter() {
-        $this->Auth->allow('create','thankyou');
+        $this->Auth->allow('create');
     }
 
 	public function login() {
@@ -15,7 +15,6 @@ class UsersController extends AppController {
         if($this->request->is('post')) {
 
             if($this->Auth->login()) {
-
 	
 				$userid = $this->Auth->user('id');
 				$datenow = date("Y-m-d H:i:s");
@@ -42,25 +41,49 @@ class UsersController extends AppController {
 			$email = $this->request->data['User']['email'];
 			$password = $this->request->data['User']['password'];
 			$confirmpass = $this->request->data['User']['confirm_password'];
+			$ip = $this->request->clientIp();
 
+			if($password == $confirmpass) {
 			
-			$data = array(
-				'name' => $name,
-				'email' => $email, 
-				'password' => AuthComponent::password($password)
-			);
+				$data = array(
+					'name' => $name,
+					'email' => $email, 
+					'password' => AuthComponent::password($password),
+					'created_ip' => $ip 
+				);
 
 
-			$userData['User'] = $data;
-			$this->User->clear();
-			$this->User->set($userData);
+				if($this->User->save($data)) {	
+					var_dump();
+					exit();
 
-			if($this->User->save()) {
+					$get_data = $this->User->read(null, $this->User->id);
+					$set_data = array(
+						'id' => $get_data['User']['id'],
+						'email' => $get_data['User']['email'],
+						'name' => $get_data['User']['name']
+					);
 
-				$this->Session->setFlash('The Users has been created', 'default', array('class' => 'alert alert-success'));
-				return $this->redirect(array('action' => 'create'));
+					
+					if($this->Auth->login($set_data)) {
 
-			} else $this->set('errors', $this->User->validationErrors);
+						return $this->redirect(array('controller' => 'users', 'action' => 'thankyou'));
+
+						// $datenow = date("Y-m-d H:i:s");
+						// $last_login_time = array(
+						// 	'id' => $get_data['User']['id'],
+						// 	'last_login_time' => $datenow
+						// );
+						
+						// if($this->User->save($last_login_time)) {
+						// 	return $this->redirect(array('controller' => 'users', 'action' => 'thankyou'));
+						// } 
+						
+					}
+
+				} else $this->set('errors', $this->User->validationErrors);
+			
+			} else $this->Session->setFlash('Unmatched password', 'default', array('class' => 'alert alert-warning'));
 			
 		}
 
@@ -81,57 +104,72 @@ class UsersController extends AppController {
 
 		$userid = $this->Auth->user('id');
 		$user = $this->User->findById($userid);
-
 		$this->set('user', $user);
 
-	}
-
-	public function editProfile() {
-		
-		$this->autoRender = false;
 
 		if($this->request->is(array('post', 'put'))) {
 
-			$userid = $this->Auth->user('id');
 			$name = $this->request->data['User']['name'];
-			$birthdate = $this->request->data['User']['birthdate'];
+			$birthdate = date("Y-m-d", strtotime($this->request->data['Users']['birthdate']));
+			$gender = $this->request->data['User']['gender'];
 			$hubby = $this->request->data['User']['hubby'];
+			$ip = $this->request->clientIp();
 
 			$input_img = $this->request->data['User']['image'];
 			$file_type = $input_img['type'];
 
+			if(empty($input_img['name'])) {
 
+				$data = array(
+					'id' => $userid,
+					'name' => $name,
+					'gender' => $gender,
+					'birthday' => $birthdate,
+					'hubby' => $hubby, 
+					'modified_ip' => $ip,
+				);
 
-			if(in_array($file_type, ['image/jpeg','image/jpg','image/png'])) {
+				if($this->User->save($data)) {
+
+					$this->Session->setFlash('Updated Successfuly', 'default', array('class' => 'alert alert-success'));
+					return $this->redirect(array('controller' => 'users', 'action' => 'profile'));
+				
+				} else $this->set('errors', $this->User->validationErrors);
+			
+			} else {
+
+				if(in_array($file_type, ['image/jpeg','image/jpg','image/png'])) {
 
 			
-				$file = basename($input_img['name']);
-				$filename = time().'_'.$file;
-				$upload_path = WWW_ROOT. 'img/users' . DS . $filename;
-
-
-				if(move_uploaded_file($input_img['tmp_name'], $upload_path)) {
-
-					$data = array(
-						'id' => $userid,
-						'photo' => $filename,
-						'name' => $name,
-						'birthday' => $birthdate,
-						'hubby' => $hubby
-					);
-
-					var_dump($data);
-					exit();
-
-
-				} else return 0;
-
-			} else $response = array('alert' => 'error', 'message' => 'Invalid photo extension');
-
-			return json_encode($response);
+					$file = basename($input_img['name']);
+					$filename = time().'_'.$file;
+					$upload_path = WWW_ROOT. 'img/users' . DS . $filename;
+	
+	
+					if(move_uploaded_file($input_img['tmp_name'], $upload_path)) {
+	
+						$data = array(
+							'id' => $userid,
+							'photo' => $filename,
+							'name' => $name,
+							'gender' => $gender,
+							'birthday' => $birthdate,
+							'hubby' => $hubby, 
+							'updated_ip' => $ip,
+						);
+	
+						if($this->User->save($data)) {
+							
+							$this->Session->setFlash('Updated Successfuly', 'default', array('class' => 'alert alert-success'));
+							return $this->redirect(array('controller' => 'users', 'action' => 'profile'));
+						
+						} else $this->set('errors', $this->User->validationErrors);
+					}
+	
+				} else $this->Session->setFlash('Invalid photo extension', 'default', array('class' => 'alert alert-success'));
+			}
 
 		} 
-		
 
 	}
 
@@ -210,5 +248,10 @@ class UsersController extends AppController {
 		} 
 		
 	}	
+
+	public function thankyou() {
+		$message = 'Thank you for registering!';
+		$this->set('message', $message);
+	}
 
 }

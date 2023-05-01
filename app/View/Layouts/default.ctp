@@ -27,7 +27,7 @@
 
 </head>
 <body>
-	<?php if(AuthComponent::user() && $this->request->here != '/thankyou') :?>
+	<?php if(AuthComponent::user()) :?>
 		<nav class="navbar navbar-expand-lg navbar-white bg-white">
 			<div class="container">
 				<h3><?php echo $this->Html->link($cakeDescription, array('controller' => 'messages', 'action' => 'index')); ?></h3>

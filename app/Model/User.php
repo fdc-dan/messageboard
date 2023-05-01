@@ -34,7 +34,26 @@
                     'rule' => array('lengthBetween', 5, 20),
                     'message' => 'Name must be 5 to 20 characters'
                 )
-            )
+            ),
+            'gender' => array(
+                'notBlank' => array(
+                    'rule' => array('notBlank'),
+                    'message' => 'Gender is required field'
+                )
+            ),
+            'birthday' => array(
+                'notBlank' => array(
+                    'rule' => array('notBlank'),
+                    'message' => 'Birthdate is required field'
+                )
+            ),
+            'hubby' => array(
+                'notBlank' => array(
+                    'rule' => array('notBlank'),
+                    'message' => 'Hubby is required field'
+                )
+            ),
+
         );
     }
 
