@@ -31,9 +31,9 @@
                                                 FROM conversations inbox 
                                                 JOIN users sender ON inbox.sender_id = sender.id
                                                 JOIN users recipient ON inbox.recipient_id = recipient.id
-                                                WHERE (inbox.sender_id = $userid OR inbox.recipient_id = $userid)
-                                                AND inbox.is_delete = 0
-                                                LIMIT $offset, 2"); 
+                                                WHERE inbox.is_delete = 0 AND (inbox.sender_id = $userid OR inbox.recipient_id = $userid)
+                                                ORDER BY inbox.id DESC
+                                                LIMIT $offset, 10"); 
                 return json_encode($data);
             }
            
@@ -53,10 +53,11 @@
                 $last_message = $this->request->data['Message']['message'];
                 $ip = $this->request->clientIp();
 
-                $conditions = array('conditions' => array(
-                    'sender_id' => $sender,
-                    'recipient_id' => $recepient
-                ));
+                $conditions = array('conditions' =>  array (
+                        'sender_id' => $sender,
+                        'recipient_id' => $recepient
+                    )
+                );
 
                 $findExistingConversation = $this->Conversation->find('count', $conditions);
 
@@ -101,15 +102,34 @@
                 $this->loadModel('Conversation');
 
                 $conversation_id = $this->request->data['conversaionId'];
+                $ip = $this->request->clientIp();
                 $data = array(
                     'id' => $conversation_id,
-                    'is_delete' => 1
+                    'is_delete' => 1,
+                    'modified_ip' => $ip
                 );
+            
 
                 // $this->Conversation->delete($conversation_id); 
 
-
                 if($this->Conversation->save($data)) {
+
+                    // Delete messages under this conversation
+                    $getInboxHash = $this->Conversation->findById($conversation_id);
+                    $setInboxHash = $getInboxHash['Conversation']['inbox_hash'];
+                    $conditions = array('conditions' => array(
+                            'inbox_hash' => $setInboxHash
+                    ));
+                
+                    $findMessages = $this->Message->find('all', $conditions);
+    
+                    foreach($findMessages as $messages) {
+    
+                        $messageId = $messages['Message']['id']; 
+                        $messageData = array('id' => $messageId, 'is_delete' => 1);
+    
+                        $this->Message->save($messageData);
+                    }
 
                     $response = array('alert' => 'success', 'message' => 'Delete Conversation');
 

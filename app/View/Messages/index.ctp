@@ -41,7 +41,7 @@
 
                 (profile === null) ? profile_url = '/img/users/placeholder.jpeg' : profile_url = '/img/users/'+profile;
 
-                html+="<div class='inbox bg-white p-3'>";
+                html+="<div class='inbox p-3' id='inbox-"+value.inbox.id+"'>";
                     html+="<div class='inboxLink' data-hash='"+value.inbox.inbox_hash+"'>";
                         html+="<div class='row'>";
                                 html+="<div class='col-md-2 message_profile text-center'>";
@@ -79,7 +79,7 @@
         $('#showMoreButton').click(function(e) {
             e.preventDefault(0);
 
-            offset += 2;
+            offset += 10;
 
             $.getJSON('<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'getConversations')); ?>',{offset:offset}, function(data) {
                 var ui = displayConversations(data);
@@ -103,7 +103,10 @@
                 dataType: 'json',
                 data: {conversaionId:conversaionId}, 
                 success:function(response) {
-                    console.log(response);
+
+                    if(response.alert == 'success') {
+                        $('#inbox-'+conversaionId).fadeOut();
+                    }
                 }, 
                 error:function(error) {
                     console.log(error);

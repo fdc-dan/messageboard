@@ -27,13 +27,19 @@ img.message-profile {
 
 
 .inbox {
+    background-color: #fff;
     border-bottom: 1px solid #ddd !important;
     cursor: pointer;
+}
+
+.inbox:hover {
+    background-color: #eee;
 }
 
 .inbox:last-of-type {
     border-bottom: none;
 }
+
 
 .messages {
     background: #f6f5f5;
