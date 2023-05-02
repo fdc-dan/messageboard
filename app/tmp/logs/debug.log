@@ -1604,3 +1604,1985 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
 [main] - APP/webroot/index.php, line 117
 
+2023-05-01 12:03:15 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 02:46:00 Notice: Notice (8): Undefined variable: date in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 84]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::replyMessage() - APP/Controller/MessagesController.php, line 84
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 02:55:56 Notice: Notice (8): Trying to get property 'id' of non-object in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 80]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::replyMessage() - APP/Controller/MessagesController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 02:56:06 Notice: Notice (8): Trying to get property 'id' of non-object in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 80]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::replyMessage() - APP/Controller/MessagesController.php, line 80
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:13:45 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:14:07 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:16:37 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:16:48 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:17:44 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:18:34 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:22:22 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:23:24 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:23:37 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:23:37 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:23:50 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:23:50 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:25:07 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:26:36 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:28:34 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:30:42 Notice: Notice (8): Undefined index: inboxHash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 48]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:31:09 Notice: Notice (8): Undefined index: inboxHash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 48]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:31:51 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:31:51 Notice: Notice (8): Undefined index: inboxHash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 48]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:32:05 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:32:06 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:32:07 Notice: Notice (8): Undefined index: limit in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 42]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 42
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 03:32:41 Notice: Notice (8): Undefined index: inboxHash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 48]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::getMessages() - APP/Controller/MessagesController.php, line 48
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:11:12 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:12:13 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:22:18 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:22:23 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:22:23 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:22:23 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:22:23 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:22:57 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:23:18 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:23:20 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:23:20 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:23:20 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:23:20 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:24:43 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:24:58 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:25:08 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:29:21 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:29:44 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:14 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:16 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:16 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:16 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:16 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:30 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:30 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:30 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:30 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:39 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:39 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:39 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:39 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:50 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:53 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:59 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:59 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:59 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:33:59 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 39]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:34:50 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:34:50 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:34:50 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 40]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:34:50 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 40]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:34:54 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:34:57 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:34:57 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:34:57 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 40]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:34:57 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 40]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:08 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:08 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:08 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 40]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:08 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 40]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:10 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:13 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:13 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 38]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:13 Notice: Notice (8): Undefined index: Message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 40]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:13 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 40]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 40
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:19 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:32 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:42 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:35:46 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:36:01 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:39:04 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:39:29 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:39:32 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:41:26 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:41:34 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:42:06 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:46:37 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:46:40 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:46:44 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:49:06 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:49:07 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:51:02 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:51:07 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:51:38 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:52:34 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:52:38 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:52:58 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:53:02 Notice: Notice (8): Undefined index: inbox_hash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 52]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:53:02 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:53:23 Notice: Notice (8): Undefined index: inbox_hash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 52]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:53:23 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:53:25 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:53:29 Notice: Notice (8): Undefined index: inbox_hash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 52]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:53:29 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:53:46 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:54:14 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:54:17 Notice: Notice (8): Undefined index: inbox_hash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 52]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:54:17 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:54:29 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:54:33 Notice: Notice (8): Undefined index: inbox_hash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 52]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:54:33 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:55:22 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:55:25 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:55:32 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:55:33 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:55:43 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:55:44 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:55:44 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:55:55 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:56:01 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:56:08 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:56:15 Notice: Notice (8): Undefined index: inbox_hash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 52]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:56:15 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:56:34 Notice: Notice (8): Undefined index: inbox_hash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 52]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:56:34 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:56:37 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:56:40 Notice: Notice (8): Undefined index: inbox_hash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 52]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 52
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:56:40 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:58:55 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:58:57 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:59:17 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:59:19 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:59:52 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 04:59:55 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:00:03 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:00:05 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:00:52 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:00:55 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:01:01 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:01:45 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:01:49 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:03:25 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:04:23 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:06:04 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:08:20 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:10:57 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:15:45 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:18:56 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:19:19 Notice: Notice (8): Undefined variable: inbox_hash in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 56]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 56
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:19:19 Notice: Notice (8): Undefined variable: message in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/Controller/MessagesController.php, line 57]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+MessagesController::create() - APP/Controller/MessagesController.php, line 57
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:19:19 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:20:22 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:21:33 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:21:36 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:23:56 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:24:07 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:24:10 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:24:16 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:25:35 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:25:37 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:26:25 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 8
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:26:43 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 8
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-02 05:26:46 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Messages/create.ctp, line 8
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+

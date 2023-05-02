@@ -30,12 +30,21 @@
 
 <!-- Parent div for messages -->
 <div class="col-10 bg-white p-3" id="messagesData"></div>
+<div class='col-10 text-center mt-3'>
+    <?php 
+
+       echo $this->Form->button('Show More', array(
+                'class' => 'btn btn-outline-primary btn-sm',
+                'id' => 'showMoreButton'
+            )); 
+    ?>
+</div>
 
 <script>
     $(document).ready(function() {
 
         // Messages view
-        let inboxHash = <?php echo $this->params['pass'][0] ?>;
+        let inboxHash = '<?php echo $this->params['pass'][0]; ?>';
         
         $.getJSON('<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'getMessages')); ?>', { inboxHash:inboxHash }, function(data) {
             
@@ -73,6 +82,17 @@
             $("#messagesData").html(htmlData);
         });
 
+        $('#showMoreButton').click(function(e) {
+            e.preventDefault(0);
+
+            var limit = 5;
+
+            $.post('<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'getMessages')); ?>',{limit:limit}, function(response) {
+                console.log(response);
+            });
+
+        });
+
 
         // Reply messages
         $('#newMessageForm').on('submit', function(e) {
@@ -98,5 +118,7 @@
             });
             
         }); 
+
+
     });
 </script>

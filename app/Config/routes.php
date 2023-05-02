@@ -34,7 +34,7 @@
 
 	Router::connect('/message', array('controller' => 'messages', 'action' => 'index'));
 	Router::connect('/message/*', array('controller' => 'messages', 'action' => 'detail'));
-	Router::connect('/message/create', array('controller' => 'messages', 'action' => 'create'));
+	Router::connect('/new-message', array('controller' => 'messages', 'action' => 'create'));
 	
 /**
  * ...and connect the rest of 'Pages' controller's URLs.

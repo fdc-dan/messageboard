@@ -1,11 +1,10 @@
 
 <h3>Message List</h3>
+<div class="alert_wrap">
+    <?php echo $this->Session->flash(); ?>
+</div>
 <div class="col-10 mb-5 p-0">
-    <?php 
-        echo $this->Html->link('New Message','',array(
-            'class' => 'btn btn-primary float-right'
-        )); 
-    ?>
+    <?php echo $this->Html->link('New Message',array('controller' => 'messages', 'action' => 'create'), array('class' => 'btn btn-primary float-right')); ?>
 </div>
 
 <div class="col-10 bg-white">
@@ -30,9 +29,6 @@
                     ?>
                 </div>
                 <div class='col-md-10'>
-                    <?php
-                        echo $participant['inbox']['inbox_hash'];
-                    ?>
                     <h5>
                         <?php 
                             if($session_id == $sender_id) echo $participant['recipient']['recipient_name'];
