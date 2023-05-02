@@ -30,7 +30,7 @@
 
 <!-- Parent div for messages -->
 <div class="col-10 bg-white p-3" id="messagesData"></div>
-<div class='col-10 text-center mt-3'>
+<div class='col-10 text-center mt-3 mb-5'>
     <?php 
 
        echo $this->Form->button('Show More', array(
@@ -43,52 +43,56 @@
 <script>
     $(document).ready(function() {
 
-        // Messages view
+        function displayMessages(data) {
+            var html  = '';
+
+            $.each(data, function(key,value) {
+
+                var profile_url = '';
+
+                if(value.sender.photo === null) profile_url = '/img/users/placeholder.jpeg';
+                else profile_url = '/img/users/'+value.sender.photo;
+                
+                html+="<div class='messages p-2'>";
+                        html+="<div class='row'>";
+                            html+="<div class='col-md-1 text-center'>";
+                                html+="<img src='"+profile_url+"' class='message-profile' alt=''>";
+                            html+="</div>";
+                            html+="<div class='col-md-11'>";
+                                html+="<p class='m-0'><strong>"+value.sender.name+"</strong></p>";
+                                html+="<p>"+value.message.message+"</p>";
+                                html+="<small>"+value.message.created+"</small>";
+                        html+="</div>";
+                    html+="</div>";
+                html+="</div>";
+            });
+
+            return html;
+        }
+
+
+        // messages view
         let inboxHash = '<?php echo $this->params['pass'][0]; ?>';
-        
         $.getJSON('<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'getMessages')); ?>', { inboxHash:inboxHash }, function(data) {
-            
-            var htmlData  = '';
-
-            if(data.length > 0) {
-
-                $.each(data, function(key,value) {
-
-                    var profile_url = '';
-
-                    if(value.sender.photo === null) profile_url = '/img/users/placeholder.jpeg';
-                    else profile_url = '/img/users/'+value.sender.photo;
-                    
-                    htmlData+="<div class='messages p-2'>";
-                            htmlData+="<div class='row'>";
-                                htmlData+="<div class='col-md-2 text-center'>";
-                                    htmlData+="<img src='"+profile_url+"' class='message-profile' alt=''>";
-                                htmlData+="</div>";
-                                htmlData+="<div class='col-md-10'>";
-                                    htmlData+="<p>"+value.message.message+"</p>";
-                                    htmlData+="<small>"+value.message.created+"</small>";
-                            htmlData+="</div>";
-                        htmlData+="</div>";
-                    htmlData+="</div>";
-                    
-                });
-
-            } else {
-                htmlData+="<div class='col-12'>";
-                        htmlData+="<p class='text-center m-0'>No message found</p>";
-                htmlData+="</div>";
-            }
-
-            $("#messagesData").html(htmlData);
+            var ui = displayMessages(data);
+            $("#messagesData").html(ui);
         });
+        
+
+
+        // showmore view
+        var offset = 0;
 
         $('#showMoreButton').click(function(e) {
             e.preventDefault(0);
 
-            var limit = 5;
+            let inboxHash = '<?php echo $this->params['pass'][0]; ?>';
+                offset += 5;
 
-            $.post('<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'getMessages')); ?>',{limit:limit}, function(response) {
-                console.log(response);
+            $.getJSON('<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'getMessages')); ?>',{inboxHash:inboxHash, offset:offset}, function(data) {
+                
+                var ui = displayMessages(data);
+                $("#messagesData").append(ui);
             });
 
         });
@@ -110,7 +114,9 @@
                     message:message
                 }, 
                 success:function(response) {
-                    console.log(response);
+                    if(response.alert == 'success') {
+                        $('#message').val('');
+                    }
                 }, 
                 error:function(error) {
                     console.log(error);
@@ -118,7 +124,6 @@
             });
             
         }); 
-
 
     });
 </script>

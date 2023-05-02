@@ -3,29 +3,41 @@
     App::uses('AppController', 'Controller');
  
     class MessagesController extends AppController {
-
-
-         // View Conversation
+ 
         public function index() {
+        
+        }
+
+        // View Conversation
+        public function getConversations() {
+
+            $this->autoRender = false;
+
+            if($this->request->is(array('get'))) {
+
+                $this->loadModel('Conversation');
+
+                $userid = $this->Auth->user('id');
+
+                $offset = isset($this->request->query['offset']) ? $this->request->query['offset']:0;
+
+                $data = $this->Conversation->query("SELECT  inbox.*,
+                                                            sender.id as sender_id,
+                                                            sender.name as sender_name,
+                                                            sender.photo as sender_photo,
+                                                            recipient.id as recipient_id,
+                                                            recipient.name as recipient_name,
+                                                            recipient.photo as recipient_photo
+                                                FROM conversations inbox 
+                                                JOIN users sender ON inbox.sender_id = sender.id
+                                                JOIN users recipient ON inbox.recipient_id = recipient.id
+                                                WHERE (inbox.sender_id = $userid OR inbox.recipient_id = $userid)
+                                                AND inbox.is_delete = 0
+                                                LIMIT $offset, 2"); 
+                return json_encode($data);
+            }
+           
             
-            $userid = $this->Auth->user('id');
-
-            $this->loadModel('Conversation');
-
-            $query = $this->Conversation->query("SELECT inbox.*,
-                                                        sender.id as sender_id,
-                                                        sender.name as sender_name,
-                                                        sender.photo as sender_photo,
-                                                        recipient.id as recipient_id,
-                                                        recipient.name as recipient_name,
-                                                        recipient.photo as recipient_photo
-                                                  FROM conversations inbox 
-                                                  JOIN users sender ON inbox.sender_id = sender.id
-                                                  JOIN users recipient ON inbox.recipient_id = recipient.id
-                                                  WHERE (inbox.sender_id = $userid OR inbox.recipient_id = $userid)"
-                                                ); 
-
-            $this->set('participants', $query);
         }
 
         // Create Conversation
@@ -37,7 +49,7 @@
 
                 $sender = $this->Auth->user('id');
                 $recepient = $this->request->data['Message']['recepient'];
-                $conversationId = date('Hisumd').$sender;
+                $conversationId = date('HisvmdY').$sender;
                 $last_message = $this->request->data['Message']['message'];
                 $ip = $this->request->clientIp();
 
@@ -49,6 +61,7 @@
                 $findExistingConversation = $this->Conversation->find('count', $conditions);
 
                 if($findExistingConversation == 0) {
+
                     $data = array(
                         'sender_id' => $sender,
                         'recipient_id' => $recepient,
@@ -79,6 +92,34 @@
             }
         }
 
+        public function deleteConversation() {
+            
+            $this->autoRender = false;
+
+            if($this->request->is(array('post','put'))) {
+
+                $this->loadModel('Conversation');
+
+                $conversation_id = $this->request->data['conversaionId'];
+                $data = array(
+                    'id' => $conversation_id,
+                    'is_delete' => 1
+                );
+
+                // $this->Conversation->delete($conversation_id); 
+
+
+                if($this->Conversation->save($data)) {
+
+                    $response = array('alert' => 'success', 'message' => 'Delete Conversation');
+
+                } else $response = array('alert' => 'error', 'message' => 'Unable to delete conversation');
+
+                return json_encode($response);
+
+            }
+        }
+
         public function detail() {
 
 
@@ -92,13 +133,15 @@
 
                 $inboxHash =  $this->request->query['inboxHash'];
 
+                $offset = isset($this->request->query['offset']) ? $this->request->query['offset']:0;
+
                 $messages = $this->Message->query("SELECT message.*, 
-                                                          sender.* 
-                                                   FROM messages message JOIN users sender
-                                                   ON message.sender_id = sender.id  
-                                                   WHERE message.inbox_hash = $inboxHash
-                                                   ORDER BY message.id DESC
-                                                ");
+                                                            sender.* 
+                                                    FROM messages message JOIN users sender
+                                                    ON message.sender_id = sender.id  
+                                                    WHERE message.inbox_hash = $inboxHash
+                                                    ORDER BY message.id DESC
+                                                    LIMIT $offset, 5");
 
                 return json_encode($messages);
             }
@@ -134,7 +177,6 @@
 
                     $update_conversation = array(
                         'id' =>  $conversationId,
-                        'inbox_hash' => $inbox_hash,
                         'last_message' => $message,
                         'modified_ip' => $ip
                     );
