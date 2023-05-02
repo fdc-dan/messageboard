@@ -36,8 +36,6 @@
                                                 LIMIT $offset, 10"); 
                 return json_encode($data);
             }
-           
-            
         }
 
         // Create Conversation
