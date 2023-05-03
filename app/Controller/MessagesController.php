@@ -145,7 +145,11 @@
                     foreach($findMessages as $messages) {
     
                         $messageId = $messages['Message']['id']; 
-                        $messageData = array('id' => $messageId, 'is_delete' => 1);
+                        $messageData = array(
+                            'id' => $messageId, 
+                            'is_delete' => 1,
+                            'modified_ip' => $ip
+                        );
     
                         $this->Message->save($messageData);
                     }
@@ -190,6 +194,7 @@
         public function replyMessage() {
 
             $this->autoRender = false;
+            $this->loadModel('Conversation');
 
             if($this->request->is(array('post'))) {
                 
@@ -207,10 +212,7 @@
 
                 if($this->Message->save($data)) {
 
-                    $this->loadModel('Conversation');
-
                     $findConversationId = $this->Conversation->find('first', array('conditions' => array('inbox_hash =' => $inbox_hash)));
-
                     $conversationId = $findConversationId['Conversation']['id'];
 
                     $update_conversation = array(
@@ -221,7 +223,15 @@
 
                     if($this->Conversation->save($update_conversation)) {
 
-                        $response = array('alert' => 'success', 'message' => 'Message Sent');
+                        $lastSaveMessage = $this->Message->read(null, $this->Message->id);
+                        $lastSaveMessageId = $this->Message->id;
+
+                        $lastMessageQuery = $this->Message->query("SELECT message.*, sender.* 
+                                                        FROM messages message JOIN users sender
+                                                        ON message.sender_id = sender.id  
+                                                        WHERE message.id = $lastSaveMessageId");
+
+                        $response = array('alert' => 'success', 'message' => 'Message Sent', 'data' => $lastMessageQuery);
 
                     } else $response = array('alert' => 'error', 'message' => 'Unable to sent message');
 

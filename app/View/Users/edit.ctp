@@ -118,7 +118,13 @@
     $(document).ready(function() {
 
         // jQUery Datepicker
-        $('#birthdate').datepicker();
+        $('#birthdate').datepicker({
+            showButtonPanel: true,
+            changeMonth: true,
+            changeYear: true,
+            showOtherMonths: true,
+            selectOtherMonths: true 
+        });
 
         // Profile preview
         var fileReadURL = function(input) {

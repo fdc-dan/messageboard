@@ -1,12 +1,14 @@
 
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item">Message Details</li>
-    <li class="breadcrumb-item active">
-        <?php echo $this->Html->link('Back to Message List', array('controller' => 'messages', 'action' => 'index')); ?>
-    </li>
-  </ol>
-</nav>
+<div class="col-10 p-0">
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">Message Details</li>
+        <li class="breadcrumb-item active">
+            <?php echo $this->Html->link('Back to Message List', array('controller' => 'messages', 'action' => 'index')); ?>
+        </li>
+    </ol>
+    </nav>
+</div>
 
 <div class="col-10 bg-white p-3 mb-3">
     <?php echo $this->Form->create(array('id' => 'newMessageForm')); ?>
@@ -123,9 +125,13 @@
                     message:message
                 }, 
                 success:function(response) {
-                    console.log(response);
+                    // console.log(response);
                     if(response.alert == 'success') {
+
                         $('#message').val('');
+                        var newreply = displayMessages(response.data);
+                        $("#messagesData").prepend(newreply);
+                        
                     }
                 }, 
                 error:function(error) {
