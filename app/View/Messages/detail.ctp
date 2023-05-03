@@ -1,4 +1,13 @@
 
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">Message Details</li>
+    <li class="breadcrumb-item active">
+        <?php echo $this->Html->link('Back to Message List', array('controller' => 'messages', 'action' => 'index')); ?>
+    </li>
+  </ol>
+</nav>
+
 <div class="col-10 bg-white p-3 mb-3">
     <?php echo $this->Form->create(array('id' => 'newMessageForm')); ?>
         <div class="form-group">
@@ -86,8 +95,8 @@
         $('#showMoreButton').click(function(e) {
             e.preventDefault(0);
 
-            let inboxHash = '<?php echo $this->params['pass'][0]; ?>';
-                offset += 5;
+            var inboxHash = '<?php echo $this->params['pass'][0]; ?>';
+                offset += 10;
 
             $.getJSON('<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'getMessages')); ?>',{inboxHash:inboxHash, offset:offset}, function(data) {
                 
@@ -102,18 +111,19 @@
         $('#newMessageForm').on('submit', function(e) {
             e.preventDefault();
 
-            let indexHash = $('#inboxhash').val();
-            let message = $('#message').val();
+            var inboxHash = $('#inboxhash').val();
+            var message = $('#message').val();
 
             $.ajax({
                 url: '<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'replyMessage')); ?>',
                 type: 'POST',
                 dataType: 'json',
                 data: {
-                    indexHash:indexHash,
+                    inboxHash:inboxHash,
                     message:message
                 }, 
                 success:function(response) {
+                    console.log(response);
                     if(response.alert == 'success') {
                         $('#message').val('');
                     }

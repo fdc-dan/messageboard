@@ -46,3 +46,48 @@ img.message-profile {
     margin:0.8rem;
     border-radius: 10px;
 }
+
+#recipient_wrapper {
+    position: absolute;
+    width: 96%;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+.recipient_list {
+    cursor: pointer;
+    padding:1rem;
+}
+
+.recipient_list .box {
+    display: inline-block;
+    padding:0 10px;
+}
+
+.recipient_list:hover {
+    background:#007bff;
+}
+
+.recipient_list:hover p {
+    color:#fff;
+}
+
+.recipient_list img {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.alert_wrap {
+    height: 50px;
+}
+
+.genderInput legend {
+    font-size: 16px;
+}
+
+#UserGenderMale, #UserGenderFemale {
+    margin:5px;
+}

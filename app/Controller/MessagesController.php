@@ -41,29 +41,23 @@
         // Create Conversation
         public function create() {
 
+            $this->loadModel('Conversation');
+            
             if($this->request->is(array('post'))) {
 
-                $this->loadModel('Conversation');
-
                 $sender = $this->Auth->user('id');
-                $recepient = $this->request->data['Message']['recepient'];
+                $recipient = $this->request->data['Message']['recipient'];
                 $conversationId = date('HisvmdY').$sender;
                 $last_message = $this->request->data['Message']['message'];
                 $ip = $this->request->clientIp();
 
-                $conditions = array('conditions' =>  array (
-                        'sender_id' => $sender,
-                        'recipient_id' => $recepient
-                    )
-                );
+                $findExistingConversation = $this->Conversation->query("SELECT COUNT(id) as count FROM conversations WHERE is_delete = 0 AND ((sender_id = $sender AND recipient_id = $recipient ) OR (sender_id = $recipient AND recipient_id = $sender))");
 
-                $findExistingConversation = $this->Conversation->find('count', $conditions);
-
-                if($findExistingConversation == 0) {
+                if($findExistingConversation[0][0]['count'] == 0) {
 
                     $data = array(
                         'sender_id' => $sender,
-                        'recipient_id' => $recepient,
+                        'recipient_id' => $recipient,
                         'inbox_hash' => $conversationId,
                         'last_message' => $last_message,
                         'created_ip' => $ip
@@ -80,15 +74,42 @@
         
                         if($this->Message->save($new_message)) {
 
-                            $this->Session->setFlash('Messae Sent', 'default', array('class' => 'alert alert-success'));
+                            $this->Session->setFlash('Messae Successfully Sent', 'default', array('class' => 'alert alert-success'));
                             return $this->redirect(array('controller' => 'messages', 'action' => 'index'));
                         
                         } else $this->Session->setFlash('Unable to send message', 'default', array('class' => 'alert alert-danger'));
 
                     } else $this->Session->setFlash('Unable to send message', 'default', array('class' => 'alert alert-danger'));
 
-                } else $this->Session->setFlash('You already have an existing message to this recepient', 'default', array('class' => 'alert alert-warning'));
+                } else $this->Session->setFlash('You already have an existing message to this recipient', 'default', array('class' => 'alert alert-warning'));
             }
+        }
+
+        // Search Recepient
+        public function findRecepient() {
+            
+            $this->autoRender = false;
+            $this->loadModel('User');
+
+            if($this->request->is(array('get'))) {
+
+                $userid = $this->Auth->user('id');
+                $recepient = $this->request->query['recepientName'];
+
+
+                $conditions = array('conditions' => array(
+                                    array (
+                                        'User.name LIKE' => '%'.$recepient.'%',
+                                        'NOT' => array ('User.id' => $userid)
+                                    )
+                                )
+                            );
+
+                $users = $this->User->find('all', $conditions);
+
+                return json_encode($users);
+            }
+
         }
 
         public function deleteConversation() {
@@ -159,7 +180,7 @@
                                                     ON message.sender_id = sender.id  
                                                     WHERE message.inbox_hash = $inboxHash
                                                     ORDER BY message.id DESC
-                                                    LIMIT $offset, 5");
+                                                    LIMIT $offset, 10");
 
                 return json_encode($messages);
             }
@@ -173,7 +194,7 @@
             if($this->request->is(array('post'))) {
                 
                 $userid = $this->Auth->user('id');
-                $inbox_hash = $this->request->data['indexHash'];
+                $inbox_hash = $this->request->data['inboxHash'];
                 $message = $this->request->data['message'];
                 $ip = $this->request->clientIp();
 
@@ -188,10 +209,9 @@
 
                     $this->loadModel('Conversation');
 
-                    $findConversationId = $this->Conversation->find('first', array('inbox_hash' => $inbox_hash ));
+                    $findConversationId = $this->Conversation->find('first', array('conditions' => array('inbox_hash =' => $inbox_hash)));
 
                     $conversationId = $findConversationId['Conversation']['id'];
-
 
                     $update_conversation = array(
                         'id' =>  $conversationId,

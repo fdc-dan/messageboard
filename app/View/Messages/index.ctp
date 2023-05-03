@@ -1,22 +1,22 @@
-
-<h3>Message List</h3>
-<div class="col-11  alert_wrap">
-    <?php echo $this->Session->flash(); ?>
+<div class="d-flex justify-content-center">
+    <div class="alert_wrap">
+        <?php echo $this->Session->flash(); ?>
+    </div>
 </div>
-<div class="col-11 mb-5">
-    <?php echo $this->Html->link('New Message',array('controller' => 'messages', 'action' => 'create'), array('class' => 'btn btn-primary float-right')); ?>
+
+<div class="row p-3">
+    <div class="col">
+        <h3>Message List</h3>
+    </div>
+    <div class="col">
+        <?php echo $this->Html->link('New Message',array('controller' => 'messages', 'action' => 'create'), array('class' => 'btn btn-primary float-right')); ?>
+    </div>
 </div>
 
 <!-- Parent div for conversations -->
-<div class="col-11" id="conversationsData"></div>
-<div class='col-11 text-center mt-3 mb-5'>
-    <?php 
-
-       echo $this->Form->button('Show More', array(
-                'class' => 'btn btn-outline-primary btn-sm',
-                'id' => 'showMoreButton'
-            )); 
-    ?>
+<div class="col-12" id="conversationsData"></div>
+<div class='col-12 text-center mt-3 mb-5' id='showmore_wrapper'>
+    <?php echo $this->Form->button('Show More', array('class' => 'btn btn-outline-primary btn-sm', 'id' => 'showMoreButton')); ?>
 </div>
 
 <script>
@@ -69,13 +69,22 @@
         }
 
         $.getJSON('<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'getConversations')); ?>', function(data) {
-            var ui = displayConversations(data);
-            $("#conversationsData").html(ui);
+
+            if(data.length > 0) {
+                
+                var ui = displayConversations(data);
+                $("#conversationsData").html(ui);
+
+            } else {
+                var noData = "<p class='text-center bg-white p-3'>NO DATA FOUND</p>";
+                $("#conversationsData").html(noData);
+                $('#showmore_wrapper').hide();
+            }
         });
 
         // showmore view
         var offset = 0;
-
+        
         $('#showMoreButton').click(function(e) {
             e.preventDefault(0);
 

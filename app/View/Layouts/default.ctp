@@ -50,7 +50,7 @@
 						<li class="nav-item">
 							<div class="dropdown show">
 								<a class="nav-link dropdown-toggle text-dark" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Hi, <strong><?php echo AuthComponent::user('name'); ?></strong>
+									Hi, <strong><?php echo ucwords(AuthComponent::user('name')); ?></strong>
 								</a>
 								<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 									<?php echo $this->Html->link('Logout', array('controller' => 'users', 'action' => 'logout'), array('class' => 'dropdown-item')); ?>

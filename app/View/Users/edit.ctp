@@ -1,9 +1,20 @@
+<div class="d-flex justify-content-center">
+    <div class="alert_wrap">
+        <?php echo $this->Session->flash(); ?>
+    </div>
+</div>
+
+<nav class='mt-3' aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">Edit Profile</li>
+    <li class="breadcrumb-item active">
+        <?php echo $this->Html->link('Back to User Profile', array('controller' => 'users', 'action' => 'profile')); ?>
+    </li>
+  </ol>
+</nav>
+
 <div class="row">
-    <h3>Edit Profile</h3>
-    <div class="col-12  p-3">
-        <div class="alert_wrap">
-            <?php echo $this->Session->flash(); ?>
-        </div>
+    <div class="col-12">
         <div class="card">
             <div class="card-body">
                     <?php 
@@ -66,7 +77,7 @@
                                     echo date_format($user['User']['birthday'], 'Y');
                                 ?>
                             </div>
-                            <div class="form-group">
+                            <div class="form-group genderInput">
                                 <?php
                                     $options = array(
                                         'male' => 'Male',

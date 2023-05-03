@@ -1,9 +1,18 @@
+    
+<div class="d-flex justify-content-center">
+    <div class="alert_wrap">
+        <?php echo $this->Session->flash(); ?>
+    </div>
+</div>
+
+<nav class='mt-3' aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">User Profile</li>
+  </ol>
+</nav>
+
 <div class="row">
-    <h3>User Profile</h3>
-    <div class="col-12  p-3">
-        <div class="alert_wrap">
-            <?php echo $this->Session->flash(); ?>
-        </div>
+    <div class="col-12">
         <div class="card">
             <div class="card-body">
                 <div class="row">

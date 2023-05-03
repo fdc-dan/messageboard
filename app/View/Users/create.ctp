@@ -3,7 +3,7 @@
         <div class="alert_wrap">
             <?php echo $this->Session->flash(); ?>
         </div>
-        <div class="card">
+        <div class="card mt-1">
             <div class="card-body">
                 <h3 class="card-title mb-3">Register</h3>
 
