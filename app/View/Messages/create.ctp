@@ -5,17 +5,21 @@
     </div>
 </div>
 
-<nav class='mt-3' aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item">New Message</li>
-    <li class="breadcrumb-item active">
-        <?php echo $this->Html->link('Back to Message List', array('controller' => 'messages', 'action' => 'index')); ?>
-    </li>
-  </ol>
-</nav>
+<div class="d-flex justify-content-center">
+    <div class="col-10 p-0">
+        <nav class='mt-3' aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">New Message</li>
+                <li class="breadcrumb-item active">
+                    <?php echo $this->Html->link('Back to Message List', array('controller' => 'messages', 'action' => 'index')); ?>
+                </li>
+            </ol>
+        </nav>
+    </div>
+</div>
 
 <div class="d-flex justify-content-center">
-    <div class="col-8 bg-white p-3">
+    <div class="col-10 bg-white p-3">
         
         <h3 class='mb-3'>New Message</h3> 
 

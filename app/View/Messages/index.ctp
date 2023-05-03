@@ -4,20 +4,30 @@
     </div>
 </div>
 
-<div class="row p-3">
-    <div class="col">
-        <h3>Message List</h3>
-    </div>
-    <div class="col">
-        <?php echo $this->Html->link('New Message',array('controller' => 'messages', 'action' => 'create'), array('class' => 'btn btn-primary float-right')); ?>
+<div class="d-flex justify-content-center">
+    <div class="col-10">
+        <div class="row p-3">
+            <div class="col">
+                <h3>Message List</h3>
+            </div>
+            <div class="col">
+                <?php echo $this->Html->link('New Message',array('controller' => 'messages', 'action' => 'create'), array('class' => 'btn btn-primary float-right')); ?>
+            </div>
+        </div>
     </div>
 </div>
 
-<!-- Parent div for conversations -->
-<div class="col-12" id="conversationsData"></div>
-<div class='col-12 text-center mt-3 mb-5' id='showmore_wrapper'>
-    <?php echo $this->Form->button('Show More', array('class' => 'btn btn-outline-primary btn-sm', 'id' => 'showMoreButton')); ?>
+<div class="d-flex justify-content-center">
+    <!-- Parent div for conversations -->
+    <div class="col-10" id="conversationsData"></div>
 </div>
+
+<div class="d-flex justify-content-center">
+    <div class='col-10 text-center mt-3 mb-5' id='showmore_wrapper'>
+        <?php echo $this->Form->button('Show More', array('class' => 'btn btn-outline-primary btn-sm', 'id' => 'showMoreButton')); ?>
+    </div>
+</div>
+
 
 <script>
     $(document).ready(function() {
