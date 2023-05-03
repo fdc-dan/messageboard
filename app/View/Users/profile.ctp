@@ -1,4 +1,3 @@
-    
 <div class="d-flex justify-content-center">
     <div class="alert_wrap">
         <?php echo $this->Session->flash(); ?>
@@ -16,18 +15,20 @@
         <div class="card">
             <div class="card-body">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="dropdown float-right">
-                            <a class="nav-link dropdown-toggle btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-pencil-square-o"></i>
-                            </a>
-                            <div class="dropdown-menu p-2" aria-labelledby="dropdownMenuLink">
-                                <?php echo $this->Html->link('Edit profile', array('controller' => 'users', 'action' => 'edit'), array('class' => 'dropdown-item')); ?>
-                                <?php echo $this->Html->link('Change Email', '', array('class' => 'dropdown-item', 'id' => 'changeEmailBtn')); ?>
-                                <?php echo $this->Html->link('Change Password', '', array('class' => 'dropdown-item', 'id' => 'changePassBtn')); ?>
+                    <?php if(AuthComponent::user('id')  == $user['User']['id']) : ?>
+                        <div class="col-12">
+                            <div class="dropdown float-right">
+                                <a class="nav-link dropdown-toggle btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-pencil-square-o"></i>
+                                </a>
+                                <div class="dropdown-menu p-2" aria-labelledby="dropdownMenuLink">
+                                    <?php echo $this->Html->link('Edit profile', array('controller' => 'users', 'action' => 'edit'), array('class' => 'dropdown-item')); ?>
+                                    <?php echo $this->Html->link('Change Email', '', array('class' => 'dropdown-item', 'id' => 'changeEmailBtn')); ?>
+                                    <?php echo $this->Html->link('Change Password', '', array('class' => 'dropdown-item', 'id' => 'changePassBtn')); ?>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    <?php endif; ?>
                     <div class="col-lg-3">
                         <?php 
                             

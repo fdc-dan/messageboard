@@ -42,7 +42,7 @@
 							<?php echo $this->Html->link('Message', array('controller' => 'messages', 'action' => 'index'), array('class' => 'nav-link'))?>
 						</li>
 						<li class="nav-item">
-							<?php echo $this->Html->link('Profile', array('controller' => 'users', 'action' => 'profile'), array('class' => 'nav-link'))?>
+							<?php echo $this->Html->link('Profile', array('controller' => 'users', 'action' => 'profile', AuthComponent::user('id')), array('class' => 'nav-link'));?>
 						</li>
 						<li>
 							<a class="nav-link disabled">|</a>

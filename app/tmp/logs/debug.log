@@ -24909,3 +24909,207 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
 [main] - APP/webroot/index.php, line 117
 
+2023-05-03 10:15:19 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 18
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Undefined index: User in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 18
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 18]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 18
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Undefined index: User in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 36]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 36
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 36]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 36
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Undefined index: User in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 49]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 49
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 49]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 49
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Undefined index: User in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 52]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 52
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 52]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 52
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Undefined index: User in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 57]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 57
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 57]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 57
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Undefined index: User in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 64]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 64
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 64]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 64
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Undefined index: User in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 71]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 71]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Undefined index: User in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 77]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 77
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-03 10:16:37 Notice: Notice (8): Trying to access array offset on value of type null in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/app/View/Users/profile.ctp, line 77]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+include - APP/View/Users/profile.ctp, line 77
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+

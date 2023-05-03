@@ -59,15 +59,15 @@
 
             $.each(data, function(key,value) {
 
-                var profile_url = '';
+                var profileUrl = '';
 
-                if(value.sender.photo === null) profile_url = '/img/users/placeholder.jpeg';
-                else profile_url = '/img/users/'+value.sender.photo;
+                if(value.sender.photo === null) profileUrl = '/img/users/placeholder.jpeg';
+                else profileUrl = '/img/users/'+value.sender.photo;
                 
                 html+="<div class='messages p-2'>";
                         html+="<div class='row'>";
                             html+="<div class='col-md-1 text-center'>";
-                                html+="<img src='"+profile_url+"' class='message-profile' alt=''>";
+                                html+="<a href='<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'profile'));?>/"+value.message.sender_id+"'><img class='message-profile' src='"+profileUrl+"' alt=''></a>";
                             html+="</div>";
                             html+="<div class='col-md-11'>";
                                 html+="<p class='m-0'><strong>"+value.sender.name+"</strong></p>";

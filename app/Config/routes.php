@@ -29,7 +29,7 @@
 	Router::connect('/register', array('controller' => 'users', 'action' => 'create'));
 	Router::connect('/thankyou', array('controller' => 'users', 'action' => 'thankyou'));
 
-	Router::connect('/profile', array('controller' => 'users', 'action' => 'profile'));
+	Router::connect('/profile/*', array('controller' => 'users', 'action' => 'profile'));
 	Router::connect('/edit-profile', array('controller' => 'users', 'action' => 'edit'));
 
 	Router::connect('/message', array('controller' => 'messages', 'action' => 'index'));

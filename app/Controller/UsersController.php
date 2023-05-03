@@ -78,11 +78,9 @@ class UsersController extends AppController {
 	}
 
 	// Profile details page
-	public function profile() {
+	public function profile($userid) {
 		
-		$userid = $this->Auth->user('id');
 		$user = $this->User->findById($userid);
-
 		$this->set('user', $user);
 		
 	}
