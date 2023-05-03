@@ -42,18 +42,19 @@ img.message-profile {
 
 
 .messages {
+    background: #f6f5f5;
     margin:0.8rem;
     border-radius: 10px;
     padding: 1rem 5rem;
 }
 
-.messages:nth-child(odd) {
+/* .message_sender {
     background: #f6f5f5;
 }
 
-.messages:nth-child(even) {
+.message_receiver {
     background: #9bcbf8;
-}
+} */
 
 #recipient_wrapper {
     position: absolute;
