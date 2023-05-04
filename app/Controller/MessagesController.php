@@ -47,6 +47,7 @@
                         'recipient.name',
                         'recipient.photo'
                     ),
+                    'order' => 'Conversation.modified DESC',
                     'limit' => 10,
                     'offset' => $offset
                 );
