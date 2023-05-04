@@ -40,12 +40,19 @@
                     ),
                     'fields'=>array(
                         'Conversation.*',
+                        'DATE_FORMAT(Conversation.modified, "%M %d, %Y %h:%i %p") as conversationDate',
                         'sender.id',
                         'sender.name',
                         'sender.photo',
                         'recipient.id',
                         'recipient.name',
                         'recipient.photo'
+                    ),
+                    'conditions' => array(
+                        'OR' => array(
+                            'Conversation.sender_id =' => $userid,
+                            'Conversation.recipient_id =' => $userid
+                        )
                     ),
                     'order' => 'Conversation.modified DESC',
                     'limit' => 10,
@@ -209,6 +216,7 @@
                     ),
                     'fields'=>array(
                         'Message.*',
+                        'DATE_FORMAT(Message.created, "%M %d, %Y %h:%i %p") as messageDate',
                         'sender.*'
                     ),
                     'conditions' => array(

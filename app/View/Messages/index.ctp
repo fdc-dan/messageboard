@@ -64,7 +64,7 @@
                                         html+="<p class='m-0'><strong>"+value.sender.name+"</strong></p>";
                                     }
                                     html+="<p>"+value.Conversation.last_message+"</p>";
-                                    html+="<small>"+value.Conversation.modified+"</small>";
+                                    html+="<small>"+value[0].conversationDate+"</small>";
                                 html+="</div>";
                         html+="</div>";
                     html+="</div>";
@@ -78,7 +78,8 @@
         }
 
         $.getJSON('<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'getConversations')); ?>', function(data) {
- 
+            console.log(data);
+            
             if(data.length > 0) {
                 
                 var ui = displayConversations(data);

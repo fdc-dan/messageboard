@@ -75,7 +75,7 @@
                         html+="<div class='col-md-10 p-0'>";
                             html+="<p class='m-0'><strong>"+value.sender.name+"</strong></p>";
                             html+="<p class='m-0 new-message'>"+value.Message.message+"</p>";
-                            html+="<small>"+value.Message.created+"</small>";
+                            html+="<small>"+value[0].messageDate+"</small>";
                         html+="</div>";
                     html+="</div>";
                 html+="</div>";
