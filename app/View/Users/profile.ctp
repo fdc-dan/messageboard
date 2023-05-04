@@ -48,7 +48,6 @@
                     <div class="col-lg-9">
                                 <h4>
                                     <?php 
-;
                                         $getDateToday = date_create('today');
                                         $getBirthdate = date_create($user['User']['birthday']);
                                         $getAge = date_diff($getBirthdate, $getDateToday)->y;

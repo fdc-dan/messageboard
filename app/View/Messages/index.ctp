@@ -39,38 +39,37 @@
             $.each(data, function(key, value) {
 
                 var session_id = '<?php echo AuthComponent::user('id') ?>';
-                var sender_id = value.sender.sender_id;
+                var sender_id = value.sender.id;
                 var profile = '';
                 var profile_url = '';
                 
                 if(session_id == sender_id) {
-                    profile = value.recipient.recipient_photo;
+                    profile = value.recipient.photo;
                 } else {
-                    profile = value.sender.sender_photo;
+                    profile = value.sender.photo;
                 }
 
                 (profile === null) ? profile_url = '/img/users/placeholder.jpeg' : profile_url = '/img/users/'+profile;
 
-                html+="<div class='inbox p-3' id='inbox-"+value.inbox.id+"'>";
-                    html+="<div class='inboxLink' data-hash='"+value.inbox.inbox_hash+"'>";
+                html+="<div class='inbox p-3' id='inbox-"+value.Conversation.id+"'>";
+                    html+="<div class='inboxLink' data-hash='"+value.Conversation.inbox_hash+"'>";
                         html+="<div class='row'>";
                                 html+="<div class='col-md-2 message_profile text-center'>";
                                     html+="<img src='"+profile_url+"' class='message-profile' alt=''>";
                                 html+="</div>";
                                 html+="<div class='col-md-10'>";
                                     if(session_id == sender_id) {
-                                        html+="<p class='m-0'><strong>"+value.recipient.recipient_name+"</strong></p>";
+                                        html+="<p class='m-0'><strong>"+value.recipient.name+"</strong></p>";
                                     } else {
-                                        html+="<p class='m-0'><strong>"+value.sender.sender_name+"</strong></p>";
+                                        html+="<p class='m-0'><strong>"+value.sender.name+"</strong></p>";
                                     }
-                                    // html+="<p>"+value.inbox.inbox_hash+"</p>";
-                                    html+="<p>"+value.inbox.last_message+"</p>";
-                                    html+="<small>"+value.inbox.modified+"</small>";
+                                    html+="<p>"+value.Conversation.last_message+"</p>";
+                                    html+="<small>"+value.Conversation.modified+"</small>";
                                 html+="</div>";
                         html+="</div>";
                     html+="</div>";
                     if(session_id == sender_id) {
-                        html+="<div class='col-md-12 text-right'><a href='javasript:void(0)' class='deleteConversation btn btn-sm btn-outline-danger' data-id='"+value.inbox.id+"'><i class='fa fa-trash'></i> Delete</a></div>";
+                        html+="<div class='col-md-12 text-right'><a href='javasript:void(0)' class='deleteConversation btn btn-sm btn-outline-danger' data-id='"+value.Conversation.id+"'><i class='fa fa-trash'></i> Delete</a></div>";
                     }
                 html+="</div>";
             });
@@ -79,7 +78,7 @@
         }
 
         $.getJSON('<?php echo $this->Html->url(array('controller' => 'messages', 'action' => 'getConversations')); ?>', function(data) {
-
+ 
             if(data.length > 0) {
                 
                 var ui = displayConversations(data);

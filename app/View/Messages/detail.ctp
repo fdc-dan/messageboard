@@ -50,13 +50,7 @@
 
 <div class="d-flex justify-content-center">
     <div class='col-10 text-center mt-3 mb-5'>
-        <?php 
-
-        echo $this->Form->button('Show More', array(
-                    'class' => 'btn btn-outline-primary btn-sm',
-                    'id' => 'showMoreButton'
-                )); 
-        ?>
+        <?php  echo $this->Form->button('Show More', array('class' => 'btn btn-outline-primary btn-sm', 'id' => 'showMoreButton'));  ?>
     </div>
 </div>
 

@@ -27227,3 +27227,168 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
 [main] - APP/webroot/index.php, line 117
 
+2023-05-04 05:06:23 Notice: Deprecated (16384): Using key `action` is deprecated, use `url` directly instead. in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/View/Helper/FormHelper.php, line 383]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+FormHelper::create() - CORE/Cake/View/Helper/FormHelper.php, line 383
+include - APP/View/Users/login.ctp, line 11
+View::_evaluate() - CORE/Cake/View/View.php, line 971
+View::_render() - CORE/Cake/View/View.php, line 933
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 968
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-04 05:35:04 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php, line 2978]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+implode - [internal], line ??
+DboSource::_parseKey() - CORE/Cake/Model/Datasource/DboSource.php, line 2978
+DboSource::conditionKeysToString() - CORE/Cake/Model/Datasource/DboSource.php, line 2877
+DboSource::conditions() - CORE/Cake/Model/Datasource/DboSource.php, line 2771
+DboSource::buildStatement() - CORE/Cake/Model/Datasource/DboSource.php, line 2053
+DboSource::buildAssociationQuery() - CORE/Cake/Model/Datasource/DboSource.php, line 1771
+DboSource::read() - CORE/Cake/Model/Datasource/DboSource.php, line 1224
+Model::_readDataSource() - CORE/Cake/Model/Model.php, line 3053
+Model::find() - CORE/Cake/Model/Model.php, line 3025
+MessagesController::detail() - APP/Controller/MessagesController.php, line 205
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-04 05:35:04 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php, line 2978]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+implode - [internal], line ??
+DboSource::_parseKey() - CORE/Cake/Model/Datasource/DboSource.php, line 2978
+DboSource::conditionKeysToString() - CORE/Cake/Model/Datasource/DboSource.php, line 2877
+DboSource::conditions() - CORE/Cake/Model/Datasource/DboSource.php, line 2771
+DboSource::buildStatement() - CORE/Cake/Model/Datasource/DboSource.php, line 2053
+DboSource::buildAssociationQuery() - CORE/Cake/Model/Datasource/DboSource.php, line 1771
+DboSource::read() - CORE/Cake/Model/Datasource/DboSource.php, line 1224
+Model::_readDataSource() - CORE/Cake/Model/Model.php, line 3053
+Model::find() - CORE/Cake/Model/Model.php, line 3025
+MessagesController::detail() - APP/Controller/MessagesController.php, line 205
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-04 05:35:22 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php, line 2978]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+implode - [internal], line ??
+DboSource::_parseKey() - CORE/Cake/Model/Datasource/DboSource.php, line 2978
+DboSource::conditionKeysToString() - CORE/Cake/Model/Datasource/DboSource.php, line 2877
+DboSource::conditions() - CORE/Cake/Model/Datasource/DboSource.php, line 2771
+DboSource::buildStatement() - CORE/Cake/Model/Datasource/DboSource.php, line 2053
+DboSource::buildAssociationQuery() - CORE/Cake/Model/Datasource/DboSource.php, line 1771
+DboSource::read() - CORE/Cake/Model/Datasource/DboSource.php, line 1224
+Model::_readDataSource() - CORE/Cake/Model/Model.php, line 3053
+Model::find() - CORE/Cake/Model/Model.php, line 3025
+MessagesController::detail() - APP/Controller/MessagesController.php, line 205
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-04 05:35:22 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php, line 2978]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+implode - [internal], line ??
+DboSource::_parseKey() - CORE/Cake/Model/Datasource/DboSource.php, line 2978
+DboSource::conditionKeysToString() - CORE/Cake/Model/Datasource/DboSource.php, line 2877
+DboSource::conditions() - CORE/Cake/Model/Datasource/DboSource.php, line 2771
+DboSource::buildStatement() - CORE/Cake/Model/Datasource/DboSource.php, line 2053
+DboSource::buildAssociationQuery() - CORE/Cake/Model/Datasource/DboSource.php, line 1771
+DboSource::read() - CORE/Cake/Model/Datasource/DboSource.php, line 1224
+Model::_readDataSource() - CORE/Cake/Model/Model.php, line 3053
+Model::find() - CORE/Cake/Model/Model.php, line 3025
+MessagesController::detail() - APP/Controller/MessagesController.php, line 205
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-04 05:36:35 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php, line 2978]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+implode - [internal], line ??
+DboSource::_parseKey() - CORE/Cake/Model/Datasource/DboSource.php, line 2978
+DboSource::conditionKeysToString() - CORE/Cake/Model/Datasource/DboSource.php, line 2877
+DboSource::conditions() - CORE/Cake/Model/Datasource/DboSource.php, line 2771
+DboSource::buildStatement() - CORE/Cake/Model/Datasource/DboSource.php, line 2053
+DboSource::buildAssociationQuery() - CORE/Cake/Model/Datasource/DboSource.php, line 1771
+DboSource::read() - CORE/Cake/Model/Datasource/DboSource.php, line 1224
+Model::_readDataSource() - CORE/Cake/Model/Model.php, line 3053
+Model::find() - CORE/Cake/Model/Model.php, line 3025
+MessagesController::detail() - APP/Controller/MessagesController.php, line 203
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-04 05:36:35 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php, line 2978]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+implode - [internal], line ??
+DboSource::_parseKey() - CORE/Cake/Model/Datasource/DboSource.php, line 2978
+DboSource::conditionKeysToString() - CORE/Cake/Model/Datasource/DboSource.php, line 2877
+DboSource::conditions() - CORE/Cake/Model/Datasource/DboSource.php, line 2771
+DboSource::buildStatement() - CORE/Cake/Model/Datasource/DboSource.php, line 2053
+DboSource::buildAssociationQuery() - CORE/Cake/Model/Datasource/DboSource.php, line 1771
+DboSource::read() - CORE/Cake/Model/Datasource/DboSource.php, line 1224
+Model::_readDataSource() - CORE/Cake/Model/Model.php, line 3053
+Model::find() - CORE/Cake/Model/Model.php, line 3025
+MessagesController::detail() - APP/Controller/MessagesController.php, line 203
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-04 05:37:34 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php, line 2978]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+implode - [internal], line ??
+DboSource::_parseKey() - CORE/Cake/Model/Datasource/DboSource.php, line 2978
+DboSource::conditionKeysToString() - CORE/Cake/Model/Datasource/DboSource.php, line 2877
+DboSource::conditions() - CORE/Cake/Model/Datasource/DboSource.php, line 2771
+DboSource::buildStatement() - CORE/Cake/Model/Datasource/DboSource.php, line 2053
+DboSource::buildAssociationQuery() - CORE/Cake/Model/Datasource/DboSource.php, line 1771
+DboSource::read() - CORE/Cake/Model/Datasource/DboSource.php, line 1224
+Model::_readDataSource() - CORE/Cake/Model/Model.php, line 3053
+Model::find() - CORE/Cake/Model/Model.php, line 3025
+MessagesController::detail() - APP/Controller/MessagesController.php, line 205
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+
+2023-05-04 05:37:34 Notice: Notice (8): Array to string conversion in [/Applications/XAMPP/xamppfiles/htdocs/messageboard/lib/Cake/Model/Datasource/DboSource.php, line 2978]
+Trace:
+ErrorHandler::handleError() - CORE/Cake/Error/ErrorHandler.php, line 230
+implode - [internal], line ??
+DboSource::_parseKey() - CORE/Cake/Model/Datasource/DboSource.php, line 2978
+DboSource::conditionKeysToString() - CORE/Cake/Model/Datasource/DboSource.php, line 2877
+DboSource::conditions() - CORE/Cake/Model/Datasource/DboSource.php, line 2771
+DboSource::buildStatement() - CORE/Cake/Model/Datasource/DboSource.php, line 2053
+DboSource::buildAssociationQuery() - CORE/Cake/Model/Datasource/DboSource.php, line 1771
+DboSource::read() - CORE/Cake/Model/Datasource/DboSource.php, line 1224
+Model::_readDataSource() - CORE/Cake/Model/Model.php, line 3053
+Model::find() - CORE/Cake/Model/Model.php, line 3025
+MessagesController::detail() - APP/Controller/MessagesController.php, line 205
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 499
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 117
+

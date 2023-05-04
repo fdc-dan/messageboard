@@ -21,19 +21,38 @@
 
                 $offset = isset($this->request->query['offset']) ? $this->request->query['offset']:0;
 
-                $data = $this->Conversation->query("SELECT  inbox.*,
-                                                            sender.id as sender_id,
-                                                            sender.name as sender_name,
-                                                            sender.photo as sender_photo,
-                                                            recipient.id as recipient_id,
-                                                            recipient.name as recipient_name,
-                                                            recipient.photo as recipient_photo
-                                                FROM conversations inbox 
-                                                JOIN users sender ON inbox.sender_id = sender.id
-                                                JOIN users recipient ON inbox.recipient_id = recipient.id
-                                                WHERE inbox.is_delete = 0 AND (inbox.sender_id = $userid OR inbox.recipient_id = $userid)
-                                                ORDER BY inbox.id DESC
-                                                LIMIT $offset, 10"); 
+                $conditions = array(
+                    'joins' => array(
+                        array(
+                            'table' => 'users',
+                            'alias' => 'sender',
+                            'conditions' => array(
+                                'Conversation.sender_id = sender.id'
+                            )
+                        ),
+                        array(
+                            'table' => 'users',
+                            'alias' => 'recipient',
+                            'conditions' => array(
+                                'Conversation.recipient_id = recipient.id'
+                            )
+                        )
+                    ),
+                    'fields'=>array(
+                        'Conversation.*',
+                        'sender.id',
+                        'sender.name',
+                        'sender.photo',
+                        'recipient.id',
+                        'recipient.name',
+                        'recipient.photo'
+                    ),
+                    'limit' => 10,
+                    'offset' => $offset
+                );
+                
+                $data = $this->Conversation->find('all', $conditions);
+
                 return json_encode($data);
             }
         }
@@ -164,8 +183,7 @@
         }
 
         public function detail() {
-
-
+            
         }
 
         public function getMessages() {
