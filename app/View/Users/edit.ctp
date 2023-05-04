@@ -65,16 +65,16 @@
                             <div class="form-group">
                                 <?php 
 
-                                    $birthdate = $user['User']['birthday'];
+                                    $birthdate = isset($user['User']['birthday']) ? $user['User']['birthday']:'';
                                     $formatBirthDate = $this->Time->format($birthdate, '%m/%d/%Y');
 
+                                    
                                     echo $this->Form->input('birthdate', array(
                                         'class' => 'form-control',
-                                        'id' => 'birthdate',
+                                        'id' => 'birthdateFormat',
                                         'value' => $formatBirthDate
-                                    )); 
+                                    ));
 
-                                    echo date_format($user['User']['birthday'], 'Y');
                                 ?>
                             </div>
                             <div class="form-group genderInput">
@@ -118,12 +118,10 @@
     $(document).ready(function() {
 
         // jQUery Datepicker
-        $('#birthdate').datepicker({
-            showButtonPanel: true,
+        $('#birthdateFormat').datepicker({
             changeMonth: true,
             changeYear: true,
-            showOtherMonths: true,
-            selectOtherMonths: true 
+            yearRange: '1950:2015'
         });
 
         // Profile preview

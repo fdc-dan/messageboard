@@ -96,7 +96,7 @@ class UsersController extends AppController {
 		if($this->request->is(array('post', 'put'))) {
 
 			$name = $this->request->data['User']['name'];
-			$birthdate = date("Y-m-d", strtotime($this->request->data['Users']['birthdate']));
+			$birthdate = date('Y-m-d', strtotime($this->request->data['User']['birthdate']));
 			$gender = $this->request->data['User']['gender'];
 			$hubby = $this->request->data['User']['hubby'];
 			$ip = $this->request->clientIp();
@@ -118,7 +118,7 @@ class UsersController extends AppController {
 				if($this->User->save($data)) {
 
 					$this->Session->setFlash('Updated Successfuly', 'default', array('class' => 'alert alert-success'));
-					return $this->redirect(array('controller' => 'users', 'action' => 'profile'));
+					return $this->redirect(array('controller' => 'users', 'action' => 'profile', $userid));
 				
 				} else $this->set('errors', $this->User->validationErrors);
 			
@@ -147,7 +147,7 @@ class UsersController extends AppController {
 						if($this->User->save($data)) {
 							
 							$this->Session->setFlash('Updated Successfuly', 'default', array('class' => 'alert alert-success'));
-							return $this->redirect(array('controller' => 'users', 'action' => 'profile'));
+							return $this->redirect(array('controller' => 'users', 'action' => 'profile', $userid));
 						
 						} else $this->set('errors', $this->User->validationErrors);
 					}

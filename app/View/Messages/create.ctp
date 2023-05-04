@@ -34,6 +34,7 @@
                         )); 
                 ?>
             </div>
+            
             <!-- List of recepient -->
             <div id='recipient_wrapper'></div>
 
