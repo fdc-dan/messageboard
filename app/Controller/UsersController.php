@@ -80,7 +80,16 @@ class UsersController extends AppController {
 	// Profile details page
 	public function profile($userid) {
 		
-		$user = $this->User->findById($userid);
+		$conditions = array(
+			'conditions' => array('User.id =' => $userid),
+			'fields' => array(
+				'User.*',
+				'TIMESTAMPDIFF(YEAR, User.birthday, CURRENT_DATE()) as age'
+			)
+		);
+
+		$user = $this->User->find('first', $conditions);
+
 		$this->set('user', $user);
 		
 	}

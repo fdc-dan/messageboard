@@ -48,14 +48,11 @@
                     <div class="col-lg-9">
                                 <h4>
                                     <?php 
-                                        $getDateToday = date_create('today');
-                                        $getBirthdate = date_create($user['User']['birthday']);
-                                        $getAge = date_diff($getBirthdate, $getDateToday)->y;
-
+                                        $getBirthdate = $user['User']['birthday'];
                                         $getUserName = ucwords($user['User']['name']);
 
-                                        if($getAge > 0) echo $getUserName.', '.$getAge; 
-                                        else echo $getUserName;
+                                        if(empty($getBirthdate)) echo $getUserName;
+                                        else echo $getUserName.', '.$user[0]['age'];
                                     ?>
                                 </h4>
                                 <p class="m-0">
