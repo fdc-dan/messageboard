@@ -74,7 +74,7 @@
         
                         if($this->Message->save($new_message)) {
 
-                            $this->Session->setFlash('Messae Successfully Sent', 'default', array('class' => 'alert alert-success'));
+                            $this->Session->setFlash('Message Successfully Sent', 'default', array('class' => 'alert alert-success'));
                             return $this->redirect(array('controller' => 'messages', 'action' => 'index'));
                         
                         } else $this->Session->setFlash('Unable to send message', 'default', array('class' => 'alert alert-danger'));
