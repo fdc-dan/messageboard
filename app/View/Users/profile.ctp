@@ -46,7 +46,19 @@
                         ?>
                     </div>
                     <div class="col-lg-9">
-                                <h4><?php echo ucwords($user['User']['name']); ?></h4>
+                                <h4>
+                                    <?php 
+;
+                                        $getDateToday = date_create('today');
+                                        $getBirthdate = date_create($user['User']['birthday']);
+                                        $getAge = date_diff($getBirthdate, $getDateToday)->y;
+
+                                        $getUserName = ucwords($user['User']['name']);
+
+                                        if($getAge > 0) echo $getUserName.', '.$getAge; 
+                                        else echo $getUserName;
+                                    ?>
+                                </h4>
                                 <p class="m-0">
                                     <strong>Gender:</strong>
                                     <?php echo ucfirst($user['User']['gender']); ?>
@@ -62,14 +74,14 @@
                                     <strong>Joined:</strong>
                                     <?php 
                                         $joined = $user['User']['created'];
-                                        echo $this->Time->format($joined, '%B %d, %Y');
+                                        echo $this->Time->format($joined, '%B %e, %Y - %H:%M %p');
                                     ?>
                                 </p>
                                 <p>
                                     <strong>Last Login:</strong>
                                     <?php 
                                         $last_login_time = $user['User']['last_login_time'];
-                                        echo $this->Time->format($last_login_time, '%B %d, %Y');
+                                        echo $this->Time->format($last_login_time, '%B %e, %Y - %H:%M %p');
                                     ?>
                                 </p>
                                 <p>
