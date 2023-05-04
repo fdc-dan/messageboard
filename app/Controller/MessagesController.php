@@ -196,13 +196,30 @@
                 $inboxHash =  $this->request->query['inboxHash'];
 
                 $offset = isset($this->request->query['offset']) ? $this->request->query['offset']:0;
+                
+                $conditions = array(
+                    'joins' => array(
+                        array(
+                            'table' => 'users',
+                            'alias' => 'sender',
+                            'conditions' => array(
+                                'Message.sender_id = sender.id'
+                            )
+                        )
+                    ),
+                    'fields'=>array(
+                        'Message.*',
+                        'sender.*'
+                    ),
+                    'conditions' => array(
+                        'Message.inbox_hash =' => $inboxHash
+                    ),
+                    'order' => 'Message.created DESC',
+                    'limit' => 10,
+                    'offset' => $offset
+                );
 
-                $messages = $this->Message->query("SELECT message.*, sender.* 
-                                                    FROM messages message JOIN users sender
-                                                    ON message.sender_id = sender.id  
-                                                    WHERE message.inbox_hash = $inboxHash
-                                                    ORDER BY message.created DESC
-                                                    LIMIT $offset, 10");
+                $messages = $this->Message->find('all', $conditions);
 
                 return json_encode($messages);
             }
@@ -244,10 +261,26 @@
                         $lastSaveMessage = $this->Message->read(null, $this->Message->id);
                         $lastSaveMessageId = $this->Message->id;
 
-                        $lastMessageQuery = $this->Message->query("SELECT message.*, sender.* 
-                                                        FROM messages message JOIN users sender
-                                                        ON message.sender_id = sender.id  
-                                                        WHERE message.id = $lastSaveMessageId");
+                        $conditions = array(
+                            'joins' => array(
+                                array(
+                                    'table' => 'users',
+                                    'alias' => 'sender',
+                                    'conditions' => array(
+                                        'Message.sender_id = sender.id'
+                                    )
+                                )
+                            ),
+                            'fields'=>array(
+                                'Message.*',
+                                'sender.*'
+                            ),
+                            'conditions' => array(
+                                'Message.id =' => $lastSaveMessageId
+                            )
+                        );
+
+                        $lastMessageQuery = $this->Message->find('all', $conditions);
 
                         $response = array('alert' => 'success', 'message' => 'Message Sent', 'data' => $lastMessageQuery);
 

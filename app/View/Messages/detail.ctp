@@ -70,12 +70,12 @@
                 html+="<div class='messages p-2'>";
                     html+="<div class='row'>";
                         html+="<div class='col-md-2 p-0 text-center'>";
-                            html+="<a href='<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'profile'));?>/"+value.message.sender_id+"'><img class='message-profile' src='"+profileUrl+"' alt=''></a>";
+                            html+="<a href='<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'profile'));?>/"+value.Message.sender_id+"'><img class='message-profile' src='"+profileUrl+"' alt=''></a>";
                         html+="</div>";
                         html+="<div class='col-md-10 p-0'>";
                             html+="<p class='m-0'><strong>"+value.sender.name+"</strong></p>";
-                            html+="<p class='m-0 new-message'>"+value.message.message+"</p>";
-                            html+="<small>"+value.message.created+"</small>";
+                            html+="<p class='m-0 new-message'>"+value.Message.message+"</p>";
+                            html+="<small>"+value.Message.created+"</small>";
                         html+="</div>";
                     html+="</div>";
                 html+="</div>";
@@ -128,7 +128,7 @@
                     message:message
                 }, 
                 success:function(response) {
-                    // console.log(response);
+                    console.log(response);
                     if(response.alert == 'success') {
 
                         $('#message').val('');
