@@ -281,6 +281,7 @@
                             ),
                             'fields'=>array(
                                 'Message.*',
+                                'DATE_FORMAT(Message.created, "%M %d, %Y %h:%i %p") as messageDate',
                                 'sender.*'
                             ),
                             'conditions' => array(
