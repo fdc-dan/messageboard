@@ -197,12 +197,11 @@
 
                 $offset = isset($this->request->query['offset']) ? $this->request->query['offset']:0;
 
-                $messages = $this->Message->query("SELECT message.*, 
-                                                            sender.* 
+                $messages = $this->Message->query("SELECT message.*, sender.* 
                                                     FROM messages message JOIN users sender
                                                     ON message.sender_id = sender.id  
                                                     WHERE message.inbox_hash = $inboxHash
-                                                    ORDER BY message.id DESC
+                                                    ORDER BY message.created DESC
                                                     LIMIT $offset, 10");
 
                 return json_encode($messages);
